@@ -1,5 +1,29 @@
 # My Markdown File
 
+Here is some content for my Markdown file.
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const abstractLinks = document.querySelectorAll('.toggle-abstract');
+    const bibtexLinks = document.querySelectorAll('.toggle-bibtex');
+
+    abstractLinks.forEach(function(link) {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            const abstract = this.nextElementSibling;
+            abstract.style.display = abstract.style.display === 'none' ? 'block' : 'none';
+        });
+    });
+
+    bibtexLinks.forEach(function(link) {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            const bibtex = this.nextElementSibling;
+            bibtex.style.display = bibtex.style.display === 'none' ? 'block' : 'none';
+        });
+    });
+});
+</script>
 
 ## Articles
 
@@ -15,31 +39,3 @@
     {{ article.bibtex }}
   </pre>
 {% endfor %}
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const abstractLinks = document.querySelectorAll('.toggle-abstract');
-    const bibtexLinks = document.querySelectorAll('.toggle-bibtex');
-
-    abstractLinks.forEach(function(link) {
-        link.addEventListener('click', function(event) {
-            event.preventDefault();
-            const abstract = this.nextElementSibling;
-            toggleDisplay(abstract);
-        });
-    });
-
-    bibtexLinks.forEach(function(link) {
-        link.addEventListener('click', function(event) {
-            event.preventDefault();
-            const bibtex = this.nextElementSibling;
-            toggleDisplay(bibtex);
-        });
-    });
-
-    function toggleDisplay(element) {
-        element.style.display = element.style.display === 'none' ? 'block' : 'none';
-    }
-});
-</script>
-

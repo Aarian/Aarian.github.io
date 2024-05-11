@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Short-CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,28 +9,23 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
 
-Work experience
+* **M.Sc. in Computer Engineering-Artificial Intelligence, Amirkabir University of Technology (Tehran Polytechnic [AUT]), Tehran, Iran, 2017-2020**
+
+* **B.Sc. in Computer Engineering, Shiraz University, Shiraz, Iran, 2013-2017**
+
+<!--- Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
+* Summer 2015: Research Assistant
   * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+  * Duties included: Tagging issues
+  * Supervisor: Professor Git
 
 * Fall 2015: Research Assistant
   * Github University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
 Skills
 ======
@@ -39,26 +34,23 @@ Skills
   * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
-* Skill 3
+* Skill 3 --->
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
+<!--## Publications
+
+
+{% bibliography -q @article %}
+
+{% bibliography -q @inproceedings %}
+
+ [comment]: <> ( <ul>{% for post in site.publications %})
+  [comment]: <> (  {% include archive-single-cv.html %})
+  [comment]: <> ({% endfor %}</ul>) -->
+  
+  
+## Teaching
+  <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+

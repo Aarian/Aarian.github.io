@@ -3,20 +3,20 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Software"
+    url: /software/    
 
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "Portfolio"
+  - title: "Projects"
     url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
+  - title: "Short-CV"
     url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
+
+  - title: "Posts"
+    url: /posts/
+
+#  - title: "Guide"
+#    url: /markdown/ 
