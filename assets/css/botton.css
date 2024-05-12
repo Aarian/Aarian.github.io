@@ -1,0 +1,41 @@
+/* Custom button styles */
+/*.custom-button {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+    border: none;
+    background: none;
+    font-size: 16px;
+}*/
+
+/* Custom button styles */
+.custom-button {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #8a2be2; /* Purple border */
+    background-color: #8a2be2; /* Purple background */
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+/* Hover effect */
+.custom-button:hover {
+    background-color: white;
+    color: #4CAF50;
+}
+
+/* Focus effect */
+.custom-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+/* Active effect */
+.custom-button:active {
+    background-color: #45a049; /* Darker green */
+    border-color: #45a049;
+}
