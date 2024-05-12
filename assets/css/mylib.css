@@ -1,12 +1,20 @@
+.code-style {
+    font-family: 'Courier New', Courier, monospace;
+    color: #007acc; /* Blue color for Python code */
+    background-color: #f0f0f0; /* Light gray background color */
+    padding: 2px 5px; /* Add padding for better readability */
+    border-radius: 3px; /* Add rounded corners */
+}
+
 /* Custom button styles */
 .custom-button {
     cursor: pointer;
     display: inline-block;
-    padding: 8px 16px; /* Adjust padding to make the button smaller */
-    border: 2px solid #45a049; /* Green border */
-    background-color: #45a049; /* Green background */
+    padding: 4px 8px; /* Adjust padding to make the button smaller */
+    border: 2px solid #4CAF50; /* Green border */
+    background-color: #4CAF50; /* Green background */
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
