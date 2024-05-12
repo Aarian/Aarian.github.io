@@ -8,6 +8,9 @@ venue: 'Signal Processing'
 #paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0165168421003777?via%3Dihub'
 #citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
 ---
+<div class="ieee-article">
+    <p><strong>[J2] A. Morteza and M. Amirmazlaghani, "A Novel Gaussian-Copula modeling for image despeckling in the shearlet domain," <em>Signal Processing</em>, vol. 192, pp. 108340, 2022.</strong></p>
+</div>
 <!--<span id="abstract" onclick="toggleVisibility('abstract-content')" style="cursor: pointer; text-decoration: underline; color: blue;">Abstract</span> -->
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/botton.css">
 <button id="SPabstract" onclick="toggleVisibility('SPabstract-content')" class="custom-button">Abstract</button>

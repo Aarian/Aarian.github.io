@@ -8,7 +8,9 @@ venue: 'Digital Signal Processing'
 #paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S1051200420302025'
 #citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
 ---
-
+<div class="ieee-article">
+    <p><strong>[J1] A. Morteza and M. Amirmazlaghani, "A novel statistical approach for multiplicative speckle removal using t-locations scale and non-sub sampled shearlet transform," <em>Digital Signal Processing </em>, vol. 107, pp. 102857, 2020.</strong></p>
+</div>
 <!--<span id="abstract" onclick="toggleVisibility('abstract-content')" style="cursor: pointer; text-decoration: underline; color: blue;">Abstract</span> -->
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/botton.css">
 <button id="abstract" onclick="toggleVisibility('abstract-content')" class="custom-button">Abstract</button>
