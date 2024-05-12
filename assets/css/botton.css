@@ -3,8 +3,8 @@
     cursor: pointer;
     display: inline-block;
     padding: 8px 16px; /* Adjust padding to make the button smaller */
-    border: 2px solid #45a049; /* Green border */
-    background-color: #45a049; /* Green background */
+    border: 2px solid #308333; /* Green border */
+    background-color: #308333; /* Green background */
     color: white;
     font-size: 16px;
     text-align: center;
@@ -16,7 +16,7 @@
 /* Hover effect */
 .custom-button:hover {
     background-color: white;
-    color: #4CAF50;
+    color: #308333;
 }
 
 /* Focus effect */
@@ -27,6 +27,6 @@
 
 /* Active effect */
 .custom-button:active {
-    background-color: #45a049; /* Darker green */
-    border-color: #45a049;
+    background-color: #308333; /* Darker green */
+    border-color: #308333;
 }
