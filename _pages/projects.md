@@ -16,19 +16,19 @@ Here, I have listed some of my works, based on their applications.
             <li>
                 <p><strong>Forward Forward algorithm on speaker identification.</strong></p>
                 <button id="FwFw" onclick="toggleVisibility('FwFw-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+                <a href="https://github.com/Aarian/Forward_Forward_TimeSeries" target="_blank" class="custom-button">Code</a>
                 <div id="FwFw-content" style="display: none;" class="content">
                     <p> Here I have implemented the <a href="https://arxiv.org/abs/2212.13345">forward-forward algorithm</a> for the time series (speech) data, for my conversational AI course. I also used <a href="https://github.com/mpezeshki/pytorch_forward_forward">this implementation</a> for digit classification and was extended to time series data. <span class="code-style">Tech: Python, Pytorch</span></p>
                 </div>
-                <a href="https://github.com/Aarian/Forward_Forward_TimeSeries" target="_blank" class="custom-button">Code</a>
             </li>
             <!-- ASR -->
             <li>
                 <p><strong>Automatic Speech Recognition(ASR) using hybryd attention + CTC model.</strong></p>
                 <button id="ASR" onclick="toggleVisibility('ASR-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+                <a href="https://github.com/Aarian/ASR_CTC" target="_blank" class="custom-button">Code</a>
                 <div id="ASR-content" style="display: none;" class="content">
                     <p> Using CRDNN model and CTC loss for ASR task. <span class="code-style">Tech: Python, speechbrain</span></p>
                 </div>
-                <a href="https://github.com/Aarian/ASR_CTC" target="_blank" class="custom-button">Code</a>
             </li>
             <!-- GLM -->
             <li>
