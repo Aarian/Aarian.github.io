@@ -15,24 +15,26 @@ Here, I have listed some of my works, based on their applications.
             <!-- FwFw -->
             <li>
                 <p><strong>Forward Forward algorithm on speaker identification.</strong></p>
-                <button id="ASR" onclick="toggleVisibility('ASR-content'); event.stopPropagation();" class="custom-button">Main idea</button>
-                <div id="ASR-content" style="display: none;" class="content">
+                <button id="FwFw" onclick="toggleVisibility('FwFw-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+                <div id="FwFw-content" style="display: none;" class="content">
                     <p> Here I have implemented the <a href="https://arxiv.org/abs/2212.13345">forward-forward algorithm</a> for the time series (speech) data, for my conversational AI course. I also used <a href="https://github.com/mpezeshki/pytorch_forward_forward">this implementation</a> for digit classification and was extended to time series data. <span class="code-style">Tech: Python, Pytorch</span></p>
                 </div>
                 <a href="https://github.com/Aarian/Forward_Forward_TimeSeries" target="_blank" class="custom-button">Code</a>
             </li>
             <!-- ASR -->
             <li>
-                <p><strong>Automatic Speech Recognition(ASR) using wave2vec.</strong></p>
+                <p><strong>Automatic Speech Recognition(ASR) using hybryd attention + CTC model.</strong></p>
                 <button id="ASR" onclick="toggleVisibility('ASR-content'); event.stopPropagation();" class="custom-button">Main idea</button>
                 <div id="ASR-content" style="display: none;" class="content">
-                    <p> Using self-supervised learning on a huge amount of speech data for ASR task. <span class="code-style">Tech: Python, speechbrain</span></p>
+                    <p> Using CRDNN model and CTC loss for ASR task. <span class="code-style">Tech: Python, speechbrain</span></p>
                 </div>
+                <a href="https://github.com/Aarian/ASR_CTC" target="_blank" class="custom-button">Code</a>
             </li>
             <!-- GLM -->
             <li>
                 <p><strong>Generative Language Model</strong></p>
                 <button id="GLM" onclick="toggleVisibility('GLM-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+                <a href="https://github.com/Aarian/GenerativeLM" target="_blank" class="custom-button">Code</a>
                 <div id="GLM-content" style="display: none;" class="content">
                     <p> Here a transformer-based model is used to learn the distribution of text data and finally generate related data, as samples. <span class="code-style">Tech: Python, speechbrain</span></p>
                 </div>
@@ -41,16 +43,21 @@ Here, I have listed some of my works, based on their applications.
             <li>
                 <p><strong>Machine Translation</strong></p>
                 <button id="MTR" onclick="toggleVisibility('MTR-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+                <a href="https://github.com/Aarian/Seq2Seq_MachineTranslation" target="_blank" class="custom-button">Code</a>
                 <div id="MTR-content" style="display: none;" class="content">
-                    <p> Using a seq2seq model using a GRU based Encoder/ Decoder Attentive model. <span class="code-style">Tech: Python, speechbrain</span></p>
+                    <p> Machine traslation task is implemented using a seq2seq model and a GRU based Encoder/ Decoder Attentive model. <span class="code-style">Tech: Python, speechbrain</span></p>
                 </div>
             </li>
             <!-- STA -->
             <li>
                 <p><strong>Air pollution prediction based on statistical models, random processes (GARCH / ARIMA(X) / SARIMA / ETS)</strong></p>
                 <button id="STA" onclick="toggleVisibility('STA-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+                <button id="STA-Code" onclick="toggleVisibility('STA-Code-content'); event.stopPropagation();" class="custom-button">Code</button>
                 <div id="STA-content" style="display: none;" class="content">
                     <p> Many time series are non-stationary, making it hard to follow and estimate their future values. In this work, random processes mentioned above were used to tackle some issues like trends, seasonality, volatility clustering, etc. <span class="code-style">Tech: Python, Stats.model.</span></p>
+                </div>
+                <div id="STA-Code-content" style="display: none;" class="content">
+                    <p> This is a private project for AUT and the code is not shareable.</p>
                 </div>
             </li>
         </ul>
@@ -91,8 +98,12 @@ Here, I have listed some of my works, based on their applications.
             <li>
                 <p><strong>Image Multiplicative Noise Removal Using Statistical Modeling In The Shearlet Domain. (M.Sc. Thesis)</strong></p>
                 <button id="NOI" onclick="toggleVisibility('NOI-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+                <button id="NOI-Code" onclick="toggleVisibility('NOI-Code-content'); event.stopPropagation();" class="custom-button">Code</button>
                 <div id="NOI-content" style="display: none;" class="content">
                     <p> Noise, and distortions, especially multiplicative noise, cause granular effects on images. The pivotal point of this work is to remove such effects by transferring the image to the shearlet domain, and statistically model the coefficients to obtain an efficient estimator. For more details please check my <a href="/publications">publications</a>. <span class="code-style">Matlab</span></p>
+                </div>
+                <div id="NOI-Code-content" style="display: none;" class="content">
+                    <p> For implementations please check my <a href="/publications">publications.</a></p>
                 </div>
             </li>
         </ul>
@@ -102,7 +113,7 @@ Here, I have listed some of my works, based on their applications.
 
 <!-- Big Data -->
 <ul>
-    <li onclick="toggleVisibility('big-data')"><h2>Big Data</h2> &#9660;
+    <li onclick="toggleVisibility('big-data')"><h2>Big Data Analysis</h2> &#9660;
         <ul id="big-data" style="display: none;">
             <!-- BDA -->
             <li>
