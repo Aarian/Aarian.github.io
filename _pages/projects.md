@@ -12,6 +12,15 @@ Here, I have listed some of my works, based on their applications.
 <ul>
     <li onclick="toggleVisibility('time-series')"><h2>Time Series/ Sequence Analysis</h2> &#9660;
         <ul id="time-series" style="display: none;">
+            <!-- FwFw -->
+            <li>
+                <p><strong>Forward Forward algorithm on speaker identification.</strong></p>
+                <button id="ASR" onclick="toggleVisibility('ASR-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+                <div id="ASR-content" style="display: none;" class="content">
+                    <p> Here I have implemented the <a href="https://arxiv.org/abs/2212.13345">forward-forward algorithm</a> for the time series (speech) data, for my conversational AI course. I also used <a href="https://github.com/mpezeshki/pytorch_forward_forward">this implementation</a> for digit classification and was extended to time series data. <span class="code-style">Tech: Python, Pytorch</span></p>
+                </div>
+                <a href="https://github.com/Aarian/Forward_Forward_TimeSeries" target="_blank" class="custom-button">Code</a>
+            </li>
             <!-- ASR -->
             <li>
                 <p><strong>Automatic Speech Recognition(ASR) using wave2vec.</strong></p>
@@ -56,6 +65,7 @@ Here, I have listed some of my works, based on their applications.
             <li>
                 <p><strong>Statistical Analysis of Contourlet Coefficients of Watermarked Images.</strong></p>
                 <button id="WTR" onclick="toggleVisibility('WTR-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+                <a href="https://github.com/Aarian/Watermark_Detector" target="_blank" class="custom-button">Code</a>
                 <div id="WTR-content" style="display: none;" class="content">
                     <p> Designing an efficient statistical detector to classify the watermarked coefficients from the clear one. The Generalized Gaussian as a prior for contourlet coefficient is employed, and ROC curve is used to evaluate the designed statistical detector. <span class="code-style">Matlab</span></p>
                 </div>
@@ -64,6 +74,7 @@ Here, I have listed some of my works, based on their applications.
             <li>
                 <p><strong>Injecting a text message into a 12 channels electrocardiogram signal based on pseudo-random permutation. (B.Sc. Project)</strong></p>
                 <button id="RND" onclick="toggleVisibility('RND-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+                <a href="https://github.com/Aarian/ECG-Watermarking" target="_blank" class="custom-button">Code</a>
                 <div id="RND-content" style="display: none;" class="content">
                     <p> The key point relies on erratically, by a pseudo-random permutation algorithm, change the channels order, without information loss. <span class="code-style">Matlab</span></p>
                 </div>
