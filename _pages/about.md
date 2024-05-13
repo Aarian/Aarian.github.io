@@ -9,7 +9,7 @@ redirect_from:
   
 ---
  Welcome to my home page! 
- My name is Arian (Persian : آریان).  I received my M.Sc. in Artificial Intelligence from Department of Computer Engineering , [Amirkabir University of  Technology (Tehran Polytechnic)](https://aut.ac.ir/en). I also received my B.Sc. in Computer Engineering (Computer Hardware) from CSE & IT Department of [Shiraz University](https://shirazu.ac.ir/en). 
+ My name is Arian (Persian : آریان).  I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotics) from Department of Computer Engineering , [Amirkabir University of  Technology (Tehran Polytechnic)](https://aut.ac.ir/en). I also received my B.Sc. in Computer Engineering (Computer Hardware) from CSE & IT Department of [Shiraz University](https://shirazu.ac.ir/en). 
 I find great fulfillment in exploring the intersection of theoretical principles in Signal Processing and Machine/Deep Learning with their diverse applications. During my master's studies, I delved into statistical signal processing, with a focus on modeling space-time-frequency representations within the domain of image processing. My focus was on decomposing images to uncover meaningful representations in new domains, coupled with the statistical modeling of the resultant coefficients.
 
 <!--Beside all of the above, I also have a strong interest in delving deeper into Statistical Modeling, Optimization, and Representation Learning, actively expanding my knowledge and skills in these areas.-->
