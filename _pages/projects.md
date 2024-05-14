@@ -8,6 +8,26 @@ author_profile: true
 Here, I have listed some of my works, based on their applications.  
 
 
+<!-- Image Denoising -->
+<ul>
+    <li onclick="toggleVisibility('image-denoising')"><h2>Image Denoising</h2> &#9660;
+        <ul id="image-denoising" style="display: none;">
+            <!-- NOI -->
+            <li>
+                <p><strong>Image Multiplicative Noise Removal Using Statistical Modeling In The Shearlet Domain. (M.Sc. Thesis)</strong></p>
+                <button id="NOI" onclick="toggleVisibility('NOI-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+                <button id="NOI-Code" onclick="toggleVisibility('NOI-Code-content'); event.stopPropagation();" class="custom-button">Code</button>
+                <div id="NOI-content" style="display: none;" class="content">
+                    <p> Noise, and distortions, especially multiplicative noise, cause granular effects on images. The pivotal point of this work is to remove such effects by transferring the image to the shearlet domain, and statistically model the coefficients to obtain an efficient estimator. For more details please check my <a href="/publications">publications</a>. <span class="code-style">Matlab</span></p>
+                </div>
+                <div id="NOI-Code-content" style="display: none;" class="content">
+                    <p> For implementations please check my <a href="/publications">publications.</a></p>
+                </div>
+            </li>
+        </ul>
+    </li>
+</ul>
+
 <!-- Time Series/ Sequence Analysis -->
 <ul>
     <li onclick="toggleVisibility('time-series')"><h2>Time Series/ Sequence Analysis</h2> &#9660;
@@ -89,27 +109,6 @@ Here, I have listed some of my works, based on their applications.
         </ul>
     </li>
 </ul>
-
-<!-- Image Denoising -->
-<ul>
-    <li onclick="toggleVisibility('image-denoising')"><h2>Image Denoising</h2> &#9660;
-        <ul id="image-denoising" style="display: none;">
-            <!-- NOI -->
-            <li>
-                <p><strong>Image Multiplicative Noise Removal Using Statistical Modeling In The Shearlet Domain. (M.Sc. Thesis)</strong></p>
-                <button id="NOI" onclick="toggleVisibility('NOI-content'); event.stopPropagation();" class="custom-button">Main idea</button>
-                <button id="NOI-Code" onclick="toggleVisibility('NOI-Code-content'); event.stopPropagation();" class="custom-button">Code</button>
-                <div id="NOI-content" style="display: none;" class="content">
-                    <p> Noise, and distortions, especially multiplicative noise, cause granular effects on images. The pivotal point of this work is to remove such effects by transferring the image to the shearlet domain, and statistically model the coefficients to obtain an efficient estimator. For more details please check my <a href="/publications">publications</a>. <span class="code-style">Matlab</span></p>
-                </div>
-                <div id="NOI-Code-content" style="display: none;" class="content">
-                    <p> For implementations please check my <a href="/publications">publications.</a></p>
-                </div>
-            </li>
-        </ul>
-    </li>
-</ul>
-
 
 <!-- Big Data -->
 <ul>
