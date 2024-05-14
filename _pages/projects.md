@@ -5,7 +5,7 @@ permalink: /portfolio/
 author_profile: true
 ---
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mylib.css">
-Here, I have listed some of my works, based on their applications.  
+Here, I have listed some of my works, based on their applications. Please click on each topic to go the main project idea and its implementation. 
 
 
 <!-- Image Denoising -->
@@ -74,7 +74,7 @@ Here, I have listed some of my works, based on their applications.
                 <button id="STA" onclick="toggleVisibility('STA-content'); event.stopPropagation();" class="custom-button">Main idea</button>
                 <button id="STA-Code" onclick="toggleVisibility('STA-Code-content'); event.stopPropagation();" class="custom-button">Code</button>
                 <div id="STA-content" style="display: none;" class="content">
-                    <p> Many time series are non-stationary, making it hard to follow and estimate their future values. In this work, random processes mentioned above were used to tackle some issues like trends, seasonality, volatility clustering, etc. <span class="code-style">Tech: Python, Stats.model.</span></p>
+                    <p> Most of the time series are non-stationary, making it hard to follow and predict their future values. In this work, random processes mentioned above were used to learn some patterns like trends, seasonality, volatility clustering, etc. Having this gives us the flexibility to tackle with small amount of data and easier prediction on time series. <span class="code-style">Tech: Python, Stats.model.</span></p>
                 </div>
                 <div id="STA-Code-content" style="display: none;" class="content">
                     <p> This is a private project for AUT and the code is not shareable.</p>
