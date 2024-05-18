@@ -9,4 +9,4 @@ redirect_from:
   
 ---
 
-To be added. Please visit my github page.
+To be added. Please visit my github, publication and projects pages.
