@@ -80,15 +80,15 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
   }
   
-  .news-container ul {
-    list-style-type: none; /* Remove default list style */
+ /* .news-container ul {
+    list-style-type: none;
     padding-left: 0;
     margin: 0;
   }
   
   .news-container li {
-    margin-bottom: 10px; /* Space between news items */
-  }
+    margin-bottom: 10px;
+  } */
   
   .news-container a {
     color: #007acc; /* Link color */
@@ -118,3 +118,25 @@
     background: #555; /* Darker thumb color on hover */
   }
   
+
+  .news-container ul {
+    list-style-type: none; /* Remove default list style */
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  .news-container li {
+    margin-bottom: 10px; /* Space between news items */
+    position: relative; /* Set position to relative for absolute positioning of bullet */
+    padding-left: 20px; /* Add padding for spacing between bullet and text */
+  }
+  
+  .news-container li:before {
+    content: "►"; /* Use a bullet character */
+    position: absolute; /* Position the bullet absolutely */
+    left: 0; /* Position the bullet to the left of the text */
+    color: #8b00cc; /* Bullet color */
+    font-size: 16px; /* Adjust bullet size */
+    line-height: inherit; /* Match line height of text */
+    top: 0.1em; /* Adjust vertical alignment of bullet */
+  }
