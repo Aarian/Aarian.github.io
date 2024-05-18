@@ -63,3 +63,58 @@
     font-size: 1.2em; /* Adjust the size of the icon */
     vertical-align: middle; /* Align the icon with the text */
   }
+
+  .news-container {
+    max-height: 250px; /* Adjust the height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #ddd; /* Optional: Add a border for visual separation */
+    padding: 10px;
+    background-color: #f8f9fa; /* Light gray background for contrast */
+    margin-top: 20px; /* Optional: Add some margin on top */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+  }
+  
+  .news-container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  .news-container ul {
+    list-style-type: none; /* Remove default list style */
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  .news-container li {
+    margin-bottom: 10px; /* Space between news items */
+  }
+  
+  .news-container a {
+    color: #007acc; /* Link color */
+    text-decoration: none;
+    font-weight: bold; /* Make links bold */
+  }
+  
+  .news-container a:hover {
+    text-decoration: underline;
+  }
+  
+  .news-container::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  .news-container::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track color */
+    border-radius: 10px; /* Rounded corners on the track */
+  }
+  
+  .news-container::-webkit-scrollbar-thumb {
+    background: #888; /* Scrollbar thumb color */
+    border-radius: 10px; /* Rounded corners on the thumb */
+  }
+  
+  .news-container::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Darker thumb color on hover */
+  }
+  

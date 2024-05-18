@@ -114,13 +114,22 @@ Here, I have listed some of my works, based on their applications. Please click 
 <ul>
     <li onclick="toggleVisibility('big-data')"><h2>Big Data Analysis</h2> &#9660;
         <ul id="big-data" style="display: none;">
-            <!-- BDA -->
+            <!-- BDA-CUR -->
             <li>
                 <p><strong>High dimentional KNN algorithm with CUR matrix approximation </strong></p>
                 <button id="BDA" onclick="toggleVisibility('BDA-content'); event.stopPropagation();" class="custom-button">Main idea</button>
                 <a href="https://github.com/Aarian/KNN_CUR" target="_blank" class="custom-button">Code</a>
                 <div id="BDA-content" style="display: none;" class="content">
                     <p> Implementation of KNN algorithm based on a dimension reduction algorithm (CUR decomposition as low rank approximation of SVD). <span class="code-style">Python, Matlab</span></p>
+                </div>
+            </li>
+            <!-- BDA-LSH -->
+            <li>
+                <p><strong>High dimentional KNN algorithm with Locality Sensitive Hashing(LSH) </strong></p>
+                <button id="BDA-LSH" onclick="toggleVisibility('BDA-LSH-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+                <a href="https://github.com/Aarian/KNN_LSH.git" target="_blank" class="custom-button">Code</a>
+                <div id="BDA-LSH-content" style="display: none;" class="content">
+                    <p> Implementation of KNN algorithm based on Locality Sensitive Hashing(LSH). <span class="code-style">Python</span></p>
                 </div>
             </li>
         </ul>
