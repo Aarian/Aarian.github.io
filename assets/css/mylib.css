@@ -38,3 +38,28 @@
     background-color: #308333; /* Darker green */
     border-color: #308333;
 }
+
+.post-item a {
+    font-size: 1.5em; /* Increase the font size as needed */
+    font-weight: bold;
+    text-decoration: none;
+    color: #007acc;
+  }
+  
+  .post-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .post-meta {
+    display: inline-block;
+    margin-left: 0.5rem;
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  .calendar-icon {
+    margin-right: 0.3em;
+    color: #007acc; /* Change the color to your preferred one */
+    font-size: 1.2em; /* Adjust the size of the icon */
+    vertical-align: middle; /* Align the icon with the text */
+  }
