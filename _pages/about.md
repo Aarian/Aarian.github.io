@@ -35,8 +35,8 @@ News
 
  <!-- <li><strong>[2022-09-1]</strong>: Starting a Research Assistant position at Concordia University.</li> -->
 
-  <li><strong>[2022-03-1]</strong>: Our latest paper entitled <em>A Novel Gaussian-Copula modeling for image despeckling in the shearlet domain</em> was published in Journal of <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168421003777?via%3Dihub">Signal Processing</a>.</li>
+  - <li><strong>[2022-03-1]</strong>: Our latest paper entitled <em>A Novel Gaussian-Copula modeling for image despeckling in the shearlet domain</em> was published in Journal of <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168421003777?via%3Dihub">Signal Processing</a>.</li>
 
-  <li><strong>[2020-12-1]</strong>: Our paper entitled <em>A novel statistical approach for multiplicative speckle removal using t-locations scale and non-sub sampled shearlet transform</em> was published in Journal of <a href="https://www.sciencedirect.com/science/article/abs/pii/S1051200420302025">Digital Signal Processing</a>.</li>
+  - <li><strong>[2020-12-1]</strong>: Our paper entitled <em>A novel statistical approach for multiplicative speckle removal using t-locations scale and non-sub sampled shearlet transform</em> was published in Journal of <a href="https://www.sciencedirect.com/science/article/abs/pii/S1051200420302025">Digital Signal Processing</a>.</li>
   </ul>
 </div>
