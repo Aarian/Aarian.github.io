@@ -30,3 +30,46 @@
     background-color: #308333; /* Darker green */
     border-color: #308333;
 }
+
+
+.fancy-toggle-button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.fancy-toggle-button:hover {
+    background-color: #005fa3;
+}
+
+
+.content {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f8f9fa;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.dropdown-content {
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.dropdown-content.show {
+    display: block;
+    max-height: 1000px; /* Arbitrary large value to accommodate content */
+}
+
+.hidden {
+    display: none;
+}

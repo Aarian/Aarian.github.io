@@ -18,3 +18,14 @@ function toggleVisibility(id) {
 }
 
 
+// function toggleVisibility(id) {
+//     var content = document.getElementById(id);
+    
+//     if (content.classList.contains('show')) {
+//         content.classList.remove('show');
+//         setTimeout(() => { content.style.display = 'none'; }, 500);
+//     } else {
+//         content.style.display = 'block';
+//         setTimeout(() => { content.classList.add('show'); }, 10);
+//     }
+// }
