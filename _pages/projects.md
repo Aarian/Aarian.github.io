@@ -38,7 +38,7 @@ Here, I have listed some of my works, based on their applications. Please click 
                 <button id="FwFw" onclick="toggleVisibility('FwFw-content'); event.stopPropagation();" class="custom-button">Main idea</button>
                 <a href="https://github.com/Aarian/Forward_Forward_TimeSeries" target="_blank" class="custom-button">Code</a>
                 <div id="FwFw-content" style="display: none;" class="content">
-                    <p> Here I have implemented the <a href="https://arxiv.org/abs/2212.13345">forward-forward algorithm</a> for the time series (speech) data, for my conversational AI course. The <span class="code-style">.ipynb</span> file is self contained and has all the detailed information. I also used <a href="https://github.com/mpezeshki/pytorch_forward_forward">this implementation</a> for digit classification and was extended to time series data. <span class="code-style">Tech: Python, Pytorch</span></p>
+                    <p> Here I have implemented the <a href="https://arxiv.org/abs/2212.13345">forward-forward algorithm</a> for the time series (speech) data, for my conversational AI course. The <span class="code-style">.ipynb</span> file is self contained and has all the detailed information. I also used <a href="https://github.com/mpezeshki/pytorch_forward_forward">this implementation</a> for digit classification and was extended to time series data. <span class="code-style">Python, Pytorch</span></p>
                 </div>
             </li>
             <!-- ASR -->
@@ -47,7 +47,7 @@ Here, I have listed some of my works, based on their applications. Please click 
                 <button id="ASR" onclick="toggleVisibility('ASR-content'); event.stopPropagation();" class="custom-button">Main idea</button>
                 <a href="https://github.com/Aarian/ASR_CTC" target="_blank" class="custom-button">Code</a>
                 <div id="ASR-content" style="display: none;" class="content">
-                    <p> Using CRDNN model and CTC loss for ASR task. <span class="code-style">Tech: Python, speechbrain</span></p>
+                    <p> Using CRDNN model and CTC loss for ASR task. <span class="code-style">Python, speechbrain</span></p>
                 </div>
             </li>
             <!-- GLM -->
@@ -56,7 +56,7 @@ Here, I have listed some of my works, based on their applications. Please click 
                 <button id="GLM" onclick="toggleVisibility('GLM-content'); event.stopPropagation();" class="custom-button">Main idea</button>
                 <a href="https://github.com/Aarian/GenerativeLM" target="_blank" class="custom-button">Code</a>
                 <div id="GLM-content" style="display: none;" class="content">
-                    <p> Here a transformer-based model is used to learn the distribution of text data and finally generate related data, as samples. <span class="code-style">Tech: Python, speechbrain</span></p>
+                    <p> Here a transformer-based model is used to learn the distribution of text data and finally generate related data, as samples. <span class="code-style">Python, speechbrain</span></p>
                 </div>
             </li>
             <!-- MTR -->
@@ -65,7 +65,7 @@ Here, I have listed some of my works, based on their applications. Please click 
                 <button id="MTR" onclick="toggleVisibility('MTR-content'); event.stopPropagation();" class="custom-button">Main idea</button>
                 <a href="https://github.com/Aarian/Seq2Seq_MachineTranslation" target="_blank" class="custom-button">Code</a>
                 <div id="MTR-content" style="display: none;" class="content">
-                    <p> Machine traslation task is implemented using a seq2seq model and a GRU based Encoder/ Decoder Attentive model. <span class="code-style">Tech: Python, speechbrain</span></p>
+                    <p> Machine traslation task is implemented using a seq2seq model and a GRU based Encoder/ Decoder Attentive model. <span class="code-style">Python, speechbrain</span></p>
                 </div>
             </li>
             <!-- STA -->
@@ -74,7 +74,7 @@ Here, I have listed some of my works, based on their applications. Please click 
                 <button id="STA" onclick="toggleVisibility('STA-content'); event.stopPropagation();" class="custom-button">Main idea</button>
                 <button id="STA-Code" onclick="toggleVisibility('STA-Code-content'); event.stopPropagation();" class="custom-button">Code</button>
                 <div id="STA-content" style="display: none;" class="content">
-                    <p> Most of the time series are non-stationary, making it hard to follow and predict their future values. In this work, random processes mentioned above were used to learn some patterns like trends, seasonality, volatility clustering, etc. Having this gives us the flexibility to tackle with small amount of data and easier prediction on time series. <span class="code-style">Tech: Python, Stats.model.</span></p>
+                    <p> Most of the time series are non-stationary, making it hard to follow and predict their future values. In this work, random processes mentioned above were used to learn some patterns like trends, seasonality, volatility clustering, etc. Having this gives us the flexibility to tackle with small amount of data and easier prediction on time series. <span class="code-style">Python, Stats.model.</span></p>
                 </div>
                 <div id="STA-Code-content" style="display: none;" class="content">
                     <p> This is a private project for AUT and the code is not shareable.</p>
