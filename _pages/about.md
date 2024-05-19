@@ -9,18 +9,14 @@ redirect_from:
   
 ---
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mylib.css">
- Welcome to my home page! 
- My name is Arian (Persian : آریان).  I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotics) from Department of Computer Engineering , [Amirkabir University of  Technology (Tehran Polytechnic)](https://aut.ac.ir/en). I also received my B.Sc. in Computer Engineering (Computer Hardware) from CSE & IT Department of [Shiraz University](https://shirazu.ac.ir/en). 
-I find great fulfillment in exploring the intersection of theoretical principles in Signal Processing and Machine/Deep Learning with their diverse applications. During my master's studies, I delved into statistical signal processing, with a focus on modeling space-time-frequency representations within the domain of image processing. My focus was on decomposing images to uncover meaningful representations in new domains, coupled with the statistical modeling of the resultant coefficients.
+<div class="about-container">
+    <p>Welcome to my home page! My name is Arian (Persian : آریان). I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotics) from Department of Computer Engineering , <a href="https://aut.ac.ir/en">Amirkabir University of  Technology (Tehran Polytechnic)</a>. I also received my B.Sc. in Computer Engineering (Computer Hardware) from CSE & IT Department of <a href="https://shirazu.ac.ir/en">Shiraz University</a>. I find great fulfillment in exploring the intersection of theoretical principles in Signal Processing and Machine/Deep Learning with their diverse applications. During my master's studies, I delved into statistical signal processing, with a focus on modeling space-time-frequency representations within the domain of image processing. My focus was on decomposing images to uncover meaningful representations in new domains, coupled with the statistical modeling of the resultant coefficients.</p>
 
-<!--Beside all of the above, I also have a strong interest in delving deeper into Statistical Modeling, Optimization, and Representation Learning, actively expanding my knowledge and skills in these areas.-->
+    <p>During my free time, I typically enjoy cooking, listening to music, watching movies, and playing chess. If you're interested in playing with me, here are my profiles on <a href="https://www.fqechecs.qc.ca/membres/index.php?Id=111157">FQE</a> and <a href="https://www.chess.com/member/captainmori">chess.com</a>. Don't hesitate to reach out!</p>
+</div>
 
-<!-- Presently, my enthusiasm lies in delving deeper into Optimization, Statistical Modeling and Representation Learning. I am actively engaged in expanding my knowledge and skills in these areas. -->
 
-During my free time, I typically enjoy cooking, listening to music, watching movies, and playing chess. If you're interested in playing with me, here are my profiles on [FQE](https://www.fqechecs.qc.ca/membres/index.php?Id=111157) and [chess.com](https://www.chess.com/member/captainmori). Don't hesitate to reach out!
-
-News
-======
+# News
 <!-- - **[2024-04-30]**: I have departed from my previous position due to a shift in my research interests, prompting a desire to explore new directions. -->
 
 <!-- - **[2022-09-1]**: Starting a Reasech Assistant position at Concordia University. -->

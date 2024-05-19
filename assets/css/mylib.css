@@ -135,8 +135,85 @@
     content: "►"; /* Use a bullet character */
     position: absolute; /* Position the bullet absolutely */
     left: 0; /* Position the bullet to the left of the text */
-    color: #8b00cc; /* Bullet color */
+    color: #da552c; /* Bullet color */
     font-size: 16px; /* Adjust bullet size */
     line-height: inherit; /* Match line height of text */
     top: 0.1em; /* Adjust vertical alignment of bullet */
   }
+
+  a {
+    color: #007acc;
+    text-decoration: none;
+  }
+
+   a:hover {
+    color: #005fa3;
+    text-decoration: underline;
+  }
+
+  /* Style for the about-container */
+.about-container {
+    max-height: 480px; /* Adjust the height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #ddd; /* Optional: Add a border for visual separation */
+    padding: 10px;
+    background-color: #f8f9fa; /* Light gray background for contrast */
+    margin-top: 20px; /* Optional: Add some margin on top */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.about-container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.about-container a {
+    color: #007acc; /* Link color */
+    text-decoration: none;
+    font-weight: bold; /* Make links bold */
+}
+
+.about-container a:hover {
+    text-decoration: underline;
+}
+
+.about-container::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+.about-container::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track color */
+    border-radius: 10px; /* Rounded corners on the track */
+}
+
+.about-container::-webkit-scrollbar-thumb {
+    background: #888; /* Scrollbar thumb color */
+    border-radius: 10px; /* Rounded corners on the thumb */
+}
+
+.about-container::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Darker thumb color on hover */
+}
+
+.about-container ul {
+    list-style-type: none; /* Remove default list style */
+    padding-left: 0;
+    margin: 0;
+}
+
+.about-container li {
+    margin-bottom: 10px; /* Space between items */
+    position: relative; /* Set position to relative for absolute positioning of bullet */
+    padding-left: 20px; /* Add padding for spacing between bullet and text */
+}
+
+.about-container li:before {
+    content: "►"; /* Use a bullet character */
+    position: absolute; /* Position the bullet absolutely */
+    left: 0; /* Position the bullet to the left of the text */
+    color: #da552c; /* Bullet color */
+    font-size: 16px; /* Adjust bullet size */
+    line-height: inherit; /* Match line height of text */
+    top: 0.1em; /* Adjust vertical alignment of bullet */
+}
