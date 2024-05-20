@@ -9,4 +9,4 @@ redirect_from:
   
 ---
 
-To be added. Please visit my github, publication and projects pages.
+Please visit my [github](https://github.com/Aarian), [publications]({{ site.baseurl }}/publications/) and [projects]({{ site.baseurl }}/portfolio/) pages.
