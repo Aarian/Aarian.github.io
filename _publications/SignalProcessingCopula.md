@@ -16,7 +16,7 @@ venue: 'Signal Processing'
 <button id="SPabstract" onclick="toggleVisibility('SPabstract-content')" class="custom-button">Abstract</button>
 <button id="SPbibtex" onclick="toggleVisibility('SPbibtex-content')" class="custom-button">Bib</button>
 <!--<button id="SPcode" onclick="toggleVisibility('SPcode-content')" class="custom-button">Code</button> -->
-<a href="https://github.com/Aarian/GaussianCopulaDenoising" target="_blank" class="custom-button">Code</a> 
+<a href="https://github.com/Aarian/GaussianCopulaDenoising" target="_blank" class="custom-button">Demo</a> 
 <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168421003777?via%3Dihub" target="_blank" class="custom-button">Paper</a>
 <!--<button id="code" onclick="toggleVisibility('code-content')" class="custom-button">Code</button>
 <button id="paper" onclick="toggleVisibility('paper-content')" class="custom-button">Paper</button> -->
