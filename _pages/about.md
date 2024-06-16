@@ -12,7 +12,7 @@ redirect_from:
 <div class="about-container">
     <p>Welcome to my home page! My name is Arian (Persian : آریان). I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotics) from Department of Computer Engineering , <a href="https://aut.ac.ir/en">Amirkabir University of  Technology (Tehran Polytechnic)</a>. I also received my B.Sc. in Computer Engineering (Computer Hardware) from CSE & IT Department of <a href="https://shirazu.ac.ir/en">Shiraz University</a>. I find great fulfillment in exploring the intersection of theoretical principles in Signal Processing and Machine/Deep Learning with their diverse applications. During my master's studies, I delved into statistical signal processing, with a focus on modeling space-time-frequency representations within the domain of image processing. My focus was on decomposing images to uncover meaningful representations in new domains, coupled with the statistical modeling of the resultant coefficients.</p>
 
-    <p>During my free time, I typically enjoy cooking, listening to music, watching movies, and playing chess. If you're interested in playing with me, here are my profiles on <a href="https://www.fqechecs.qc.ca/membres/index.php?Id=111157">FQE</a>. Don't hesitate to reach out!</p>
+    <p>During my free time, I typically enjoy cooking, listening to music, watching movies, and playing chess. If you're interested in playing with me, here are my profiles on <a href="https://www.fqechecs.qc.ca/membres/index.php?Id=111157">FQE</a> and <a href="https://ratings.fide.com/profile/12515140/chart">FIDE</a>. Don't hesitate to reach out!</p>
 </div>
 
 
