@@ -18,7 +18,7 @@ Here, I have listed some of my works, based on their applications. Please click 
                 <a href="https://github.com/Aarian/BrainDecoding" target="_blank" class="custom-button">Code</a>
                 <a href="https://aarian.github.io/BrainDecoding/intro.html" target="_blank" class="custom-button">Jupyter Book</a>
                 <a href="https://github.com/Aarian/BrainDecoding/tree/master/Slides" target="_blank" class="custom-button">Slides</a>
-                <a href="https://school-brainhack.github.io/project/braindecoding/" target="_blank" class="custom-button">Brain Hack School</a>
+                <!--<a href="https://school-brainhack.github.io/project/braindecoding/" target="_blank" class="custom-button">Brain Hack School</a> -->
                 <div id="BRDEC-content" style="display: none;" class="content">
                     <p> Brain decoding is a procedure for descovering the brain activity, based on its encoded data. Here a graph neural network approach has been used for training, and task classification of encoded data.</p>
                 </div>
