@@ -153,7 +153,7 @@
 
   /* Style for the about-container */
 .about-container {
-    max-height: 480px; /* Adjust the height as needed */
+    max-height: 510px; /* Adjust the height as needed */
     overflow-y: auto; /* Enable vertical scrolling */
     border: 1px solid #ddd; /* Optional: Add a border for visual separation */
     padding: 10px;
