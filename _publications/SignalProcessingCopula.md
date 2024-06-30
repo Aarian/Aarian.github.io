@@ -1,7 +1,7 @@
 ---
 title: "A Novel Gaussian-Copula modeling for image despeckling in the shearlet domain"
 collection: publications
-permalink: /publication/DSPTLS
+permalink: /publication/SP
 #excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
 date: 2022-03-01
 venue: 'Signal Processing'
