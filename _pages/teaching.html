@@ -5,8 +5,131 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+<!--{% include base_path %}
 
 {% for post in site.teaching reversed %}
   {% include archive-single.html %}
-{% endfor %}
+{% endfor %} -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fancy Table</title>
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  th, td {
+    padding: 12px 15px;
+  }
+  thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+  }
+  tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+</style>
+</head>
+<body>
+
+<table>
+  <thead>
+    <tr>
+      <th>Course</th>
+      <th>Level</th>
+      <th>Term</th>
+      <th>Institution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Probability & Statistics</td>
+      <td>Undergrad.</td>
+      <td>Winter 2024, Summer 2024</td>
+      <td>Concordia University</td>
+    </tr>
+    <tr>
+      <td>Advanced Programming (C++)</td>
+      <td>Undergrad.</td>
+      <td>Fall 2023, Winter 2024</td>
+      <td>Concordia University</td>
+    </tr>
+    <tr>
+      <td>Machine Learning</td>
+      <td>Undergrad.</td>
+      <td>Spring 2023</td>
+      <td>Concordia University</td>
+    </tr>
+    <tr>
+      <td>Data Base Design</td>
+      <td>Undergrad.</td>
+      <td>Fall 2022</td>
+      <td>Concordia University</td>
+    </tr>
+    <tr>
+      <td>Data Structures</td>
+      <td>Undergrad.</td>
+      <td>Spring 2016</td>
+      <td>Shiraz University</td>
+    </tr>
+    <tr>
+      <td>Assembly</td>
+      <td>Undergrad.</td>
+      <td>Spring 2016</td>
+      <td>Shiraz University</td>
+    </tr>
+    <tr>
+      <td>Technical Writing</td>
+      <td>Undergrad.</td>
+      <td>Fall 2023, Winter 2024</td>
+      <td>Concordia University</td>
+    </tr>
+    <tr>
+      <td>Discrete Mathematics</td>
+      <td>Undergrad.</td>
+      <td>Winter 2024, Fall 2023, Fall 2016</td>
+      <td>Concordia University, Shiraz University</td>
+    </tr>
+    <tr>
+      <td>Optimization</td>
+      <td>Grad.</td>
+      <td>Fall 2018, Spring 2021</td>
+      <td>Amirkabir University of Technology</td>
+    </tr>
+    <tr>
+      <td>Complex Networks</td>
+      <td>Grad.</td>
+      <td>Fall 2019</td>
+      <td>Amirkabir University of Technology</td>
+    </tr>
+    <tr>
+      <td>Big Data Analysis</td>
+      <td>Grad.</td>
+      <td>Spring 2020</td>
+      <td>Amirkabir University of Technology</td>
+    </tr>
+    <tr>
+      <td>Stochastic Processes</td>
+      <td>Grad.</td>
+      <td>Fall 2020, Fall 2021</td>
+      <td>Amirkabir University of Technology</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
