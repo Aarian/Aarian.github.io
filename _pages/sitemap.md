@@ -5,7 +5,6 @@ permalink: /sitemap/
 author_profile: true
 ---
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mylib.css">
-<meta name="google-site-verification" content="OLLfgxaKBrIBoy67EZFO9SP_muSiOhSt4tMLr115taU">
 {% include base_path %}
 
 A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
