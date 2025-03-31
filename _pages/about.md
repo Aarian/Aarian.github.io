@@ -31,7 +31,7 @@ redirect_from:
   <ul>
  <!-- <li><strong>[2024-04-30]</strong>: I have departed from my previous position due to a shift in my research interests, prompting a desire to explore new directions.</li> -->
 
-  <li><strong>[2025-01-30]</strong>: Successfully passed comprehensive exam./li> 
+  <li><strong>[2025-01-30]</strong>: Successfully passed comprehensive exam.</li> 
   <li><strong>[2022-09-1]</strong>: Beginning my Ph.D. journey at Concordia University.</li> 
 
   <li><strong>[2022-03-1]</strong>: Our latest paper entitled <em>A Novel Gaussian-Copula modeling for image despeckling in the shearlet domain</em> was published in Journal of <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168421003777?via%3Dihub">Signal Processing</a>.</li>
