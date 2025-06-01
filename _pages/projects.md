@@ -4,7 +4,8 @@ title: "Projects"
 permalink: /portfolio/
 author_profile: true
 ---
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mylib.css">
+<!--<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mylib.css"> -->
+<link rel="stylesheet" href="{{ '/assets/css/mylib.css' | relative_url }}">
 Here, I have listed some of my works, based on their applications. Please click on each topic to go the main project idea and its implementation. 
 
 
