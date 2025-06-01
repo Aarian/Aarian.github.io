@@ -18,7 +18,6 @@ Here, I have listed some of my works, based on their applications. Please click 
     <ul id="time-series" style="display: none;">
       <li>
         <table class="project-table no-border">
-
           <!-- FwFw -->
           <tr>
             <td class="project-img-cell">
@@ -35,7 +34,6 @@ Here, I have listed some of my works, based on their applications. Please click 
               </div>
             </td>
           </tr>
-
           <!-- ASR -->
           <tr>
             <td class="project-img-cell">
@@ -52,7 +50,6 @@ Here, I have listed some of my works, based on their applications. Please click 
               </div>
             </td>
           </tr>
-
           <!-- GLM -->
           <tr>
             <td class="project-img-cell">
@@ -69,7 +66,6 @@ Here, I have listed some of my works, based on their applications. Please click 
               </div>
             </td>
           </tr>
-
           <!-- MTR -->
           <tr>
             <td class="project-img-cell">
@@ -86,7 +82,6 @@ Here, I have listed some of my works, based on their applications. Please click 
               </div>
             </td>
           </tr>
-
           <!-- STA -->
           <tr>
             <td class="project-img-cell">
@@ -106,7 +101,6 @@ Here, I have listed some of my works, based on their applications. Please click 
               </div>
             </td>
           </tr>
-
         </table>
       </li>
     </ul>
