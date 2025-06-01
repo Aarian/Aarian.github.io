@@ -14,11 +14,46 @@
     {% endif %}
   </div>
 
+
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
+
+ <!-- added by me for university logos--> 
+ 
+ <div class="university-logos">
+  <div class="logo-circle">
+    <img src="{{ '/images/SU5.png' | relative_url }}" alt="Shiraz University" class="university-logo">
+  </div>
+  <div class="logo-circle">
+    <img src="{{ '/images/AUT1.png' | relative_url }}" alt="AUT" class="university-logo">
+  </div>
+  <div class="logo-circle">
+    <img src="{{ '/images/Concordia.png' | relative_url }}" alt="Concordia University" class="university-logo">
+  </div>
+</div>
+
+
+
+<!--  
+    <img src="/images/AUT1.png" alt="AUT" class="university-logo">
+    <img src="/images/Concordia.png" alt="Concordia University" class="university-logo">
+-->
+ 
+<!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mylib.css">
+ <div class="university-logos">
+    <img src="{{ '/images/AUT1.png' | relative_url }}" alt="Amirkabir University of Technology" class="university-logo">
+    <img src="{{ '/images/Concordia.png' | relative_url }}" alt="Concordia University" class="university-logo">
+  </div> -->
+
+<!-- <div class="university-logos">
+  <div class="logo-circle">
+  <img src="{{ '/images/SU2.png' | relative_url }}" alt="Shiraz University" class="university-logo">
+</div>
+  </div>  -->
+
 
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
