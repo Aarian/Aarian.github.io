@@ -220,24 +220,26 @@
 
 
 
-
-
-
 /* General styles for the Hobbies page */
 .page-hobbies {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
-  background-color: #f8f8f8;
+  background-color: #f1f1f1;  /* Light background for the page */
+  border-radius: 8px;  /* Smooth rounded corners for the whole page */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
 }
 
+/* Page title */
 .page-hobbies h1 {
   text-align: center;
   font-size: 2.5rem;
   color: #333;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
+/* Paragraph styling */
 .page-hobbies p {
   font-size: 1.2rem;
   line-height: 1.6;
@@ -246,10 +248,15 @@
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Subtle shadow around the paragraph */
 }
 
+/* Styling links */
 .page-hobbies a {
-  color: #007bff;
+  color: #3498db;  /* Primary blue color */
   text-decoration: none;
 }
 
@@ -257,7 +264,7 @@
   text-decoration: underline;
 }
 
-/* Styling for the hobbies list */
+/* Hobbies list styling */
 .page-hobbies ul {
   list-style: none;
   padding-left: 0;
@@ -267,11 +274,17 @@
 .page-hobbies li {
   font-size: 1.2rem;
   margin-bottom: 15px;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #e0e0e0;  /* Light gray border */
+  border-radius: 5px;  /* Smooth borders for the list items */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);  /* Light shadow for depth */
 }
 
+/* Custom bullet point */
 .page-hobbies li::before {
   content: "• ";
-  color: #007bff;
+  color: #3498db;  /* Use the same blue color for bullets */
   font-size: 1.5rem;
 }
 
