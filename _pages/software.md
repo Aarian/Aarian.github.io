@@ -8,6 +8,7 @@ redirect_from:
   - /software.html
   
 ---
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mylib.css">
+<!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mylib.css"> --> 
+<link rel="stylesheet" href="{{ '/assets/css/mylib.css' | relative_url }}">
 
 Please visit my [github](https://github.com/Aarian), [publications]({{ site.baseurl }}/publications/) and [projects]({{ site.baseurl }}/portfolio/) pages.

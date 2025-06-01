@@ -8,7 +8,8 @@ redirect_from:
   - /about.html
   
 ---
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mylib.css">
+<!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mylib.css"> --> 
+<link rel="stylesheet" href="{{ '/assets/css/mylib.css' | relative_url }}">
 <div class="about-container">
     <p>Welcome to my home page 😊 </p>
     

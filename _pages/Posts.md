@@ -8,7 +8,8 @@ redirect_from:
   - /posts.html
   
 ---
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mylib.css">
+<!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mylib.css"> -->
+<link rel="stylesheet" href="{{ '/assets/css/mylib.css' | relative_url }}">
 To be added. 
 
 <!--<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mylib.css">

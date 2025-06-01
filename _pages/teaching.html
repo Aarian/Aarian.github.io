@@ -10,7 +10,9 @@ author_profile: true
 {% for post in site.teaching reversed %}
   {% include archive-single.html %}
 {% endfor %} -->
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mylib.css">
+<!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mylib.css"> -->
+
+<link rel="stylesheet" href="{{ '/assets/css/mylib.css' | relative_url }}">
 <!DOCTYPE html>
 <html lang="en">
 <head>
