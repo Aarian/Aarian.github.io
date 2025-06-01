@@ -8,100 +8,178 @@ author_profile: true
 Here, I have listed some of my works, based on their applications. Please click on each topic to go the main project idea and its implementation. 
 
 
+
+
+<!-- Time Series/ Sequence Analysis -->
+<!-- Time Series/ Sequence Analysis -->
+<ul>
+  <li onclick="toggleVisibility('time-series')">
+    <h2>Time Series/ Sequence Analysis</h2> &#9660;
+    <ul id="time-series" style="display: none;">
+      <li>
+        <table class="project-table no-border">
+
+          <!-- FwFw -->
+          <tr>
+            <td class="project-img-cell">
+              <img src="{{ '/images/FWFW.png' | relative_url }}" alt="Forward Forward" class="responsive-icon img-small">
+            </td>
+            <td class="project-content-cell">
+              <p><strong>Forward Forward algorithm on speaker identification.</strong></p>
+              <div class="button-row">
+                <button id="FwFw" onclick="toggleVisibility('FwFw-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+                <a href="https://github.com/Aarian/Forward_Forward_TimeSeries" target="_blank" class="custom-button">Code</a>
+              </div>
+              <div id="FwFw-content" style="display: none;" class="content">
+                <p>Here I have implemented the <a href="https://arxiv.org/abs/2212.13345">forward-forward algorithm</a> for the time series (speech) data... <span class="code-style">Python, Pytorch</span></p>
+              </div>
+            </td>
+          </tr>
+
+          <!-- ASR -->
+          <tr>
+            <td class="project-img-cell">
+              <img src="{{ '/images/CTC.png' | relative_url }}" alt="ASR CTC Model" class="responsive-icon img-small">
+            </td>
+            <td class="project-content-cell">
+              <p><strong>Automatic Speech Recognition (ASR) using hybrid attention + CTC model.</strong></p>
+              <div class="button-row">
+                <button id="ASR" onclick="toggleVisibility('ASR-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+                <a href="https://github.com/Aarian/ASR_CTC" target="_blank" class="custom-button">Code</a>
+              </div>
+              <div id="ASR-content" style="display: none;" class="content">
+                <p>Using CRDNN model and CTC loss for ASR task. <span class="code-style">Python, speechbrain</span></p>
+              </div>
+            </td>
+          </tr>
+
+          <!-- GLM -->
+          <tr>
+            <td class="project-img-cell">
+              <img src="{{ '/images/Gen.png' | relative_url }}" alt="Generative LM" class="responsive-icon img-small">
+            </td>
+            <td class="project-content-cell">
+              <p><strong>Generative Language Model</strong></p>
+              <div class="button-row">
+                <button id="GLM" onclick="toggleVisibility('GLM-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+                <a href="https://github.com/Aarian/GenerativeLM" target="_blank" class="custom-button">Code</a>
+              </div>
+              <div id="GLM-content" style="display: none;" class="content">
+                <p>Here a transformer-based model is used to learn the distribution of text data and finally generate related data, as samples. <span class="code-style">Python, speechbrain</span></p>
+              </div>
+            </td>
+          </tr>
+
+          <!-- MTR -->
+          <tr>
+            <td class="project-img-cell">
+              <img src="{{ '/images/MLT.png' | relative_url }}" alt="Machine Translation" class="responsive-icon img-small">
+            </td>
+            <td class="project-content-cell">
+              <p><strong>Machine Translation</strong></p>
+              <div class="button-row">
+                <button id="MTR" onclick="toggleVisibility('MTR-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+                <a href="https://github.com/Aarian/Seq2Seq_MachineTranslation" target="_blank" class="custom-button">Code</a>
+              </div>
+              <div id="MTR-content" style="display: none;" class="content">
+                <p>Machine translation task is implemented using a seq2seq model and a GRU-based Encoder/Decoder with Attention. <span class="code-style">Python, speechbrain</span></p>
+              </div>
+            </td>
+          </tr>
+
+          <!-- STA -->
+          <tr>
+            <td class="project-img-cell">
+              <img src="{{ '/images/ARIMAX.png' | relative_url }}" alt="ARIMAX Model" class="responsive-icon img-small">
+            </td>
+            <td class="project-content-cell">
+              <p><strong>Air pollution prediction based on statistical models, random processes (GARCH / ARIMA(X) / SARIMA / ETS)</strong></p>
+              <div class="button-row">
+                <button id="STA" onclick="toggleVisibility('STA-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+                <button id="STA-Code" onclick="toggleVisibility('STA-Code-content'); event.stopPropagation();" class="custom-button">Code</button>
+              </div>
+              <div id="STA-content" style="display: none;" class="content">
+                <p>Most time series are non-stationary... <span class="code-style">Python, Stats.model.</span></p>
+              </div>
+              <div id="STA-Code-content" style="display: none;" class="content">
+                <p>This is a private project for AUT and the code is not shareable.</p>
+              </div>
+            </td>
+          </tr>
+
+        </table>
+      </li>
+    </ul>
+  </li>
+</ul>
+
 <!-- Brain Decoding -->
 <ul>
-    <li onclick="toggleVisibility('brain-decoding')"><h2>Brain Decoding</h2> &#9660;
-        <ul id="brain-decoding" style="display: none;">
-            <li>
-                <p><strong>Brain Decoding Using Connectivity Informed Models</strong></p>
-                <button id="BRDEC" onclick="toggleVisibility('BRDEC-content'); event.stopPropagation();" class="custom-button">Main idea</button>
-                <a href="https://github.com/Aarian/BrainDecoding" target="_blank" class="custom-button">Code</a>
-                <a href="https://aarian.github.io/BrainDecoding/intro.html" target="_blank" class="custom-button">Jupyter Book</a>
-                <a href="https://github.com/Aarian/BrainDecoding/tree/master/Slides" target="_blank" class="custom-button">Slides</a>
-                <!--<a href="https://school-brainhack.github.io/project/braindecoding/" target="_blank" class="custom-button">Brain Hack School</a> -->
-                <div id="BRDEC-content" style="display: none;" class="content">
-                    <p> Brain decoding is a procedure for descovering the brain activity, based on its encoded data. Here a graph neural network approach has been used for training, and task classification of encoded data.</p>
-                </div>
-            </li>
-        </ul>
-    </li>
+  <li onclick="toggleVisibility('brain-decoding')">
+    <h2>Brain Decoding</h2> &#9660;
+    <ul id="brain-decoding" style="display: none;">
+      <li>
+        <div class="responsive-icon-block">
+          <img src="{{ '/images/Brain.jpg' | relative_url }}" class="responsive-icon img-large" alt="Brain">
+
+          <div class="responsive-content">
+            <p><strong>Brain Decoding Using Connectivity Informed Models</strong></p>
+
+            <div class="button-row">
+              <button id="BRDEC" onclick="toggleVisibility('BRDEC-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+              <a href="https://github.com/Aarian/BrainDecoding" target="_blank" class="custom-button">Code</a>
+              <a href="https://aarian.github.io/BrainDecoding/intro.html" target="_blank" class="custom-button">Jupyter Book</a>
+              <a href="https://github.com/Aarian/BrainDecoding/tree/master/Slides" target="_blank" class="custom-button">Slides</a>
+            </div>
+
+            <div id="BRDEC-content" style="display: none;" class="content">
+              <p>Brain decoding is a procedure for discovering the brain activity, based on its encoded data. Here a graph neural network approach has been used for training, and task classification of encoded data.</p>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </li>
 </ul>
+
 
 
 <!-- Image Denoising -->
 <ul>
-    <li onclick="toggleVisibility('image-denoising')"><h2>Image Denoising</h2> &#9660;
-        <ul id="image-denoising" style="display: none;">
-            <!-- NOI -->
-            <li>
-                <p><strong>Image Multiplicative Noise Removal Using Statistical Modeling In The Shearlet Domain. (M.Sc. Thesis)</strong></p>
-                <button id="NOI" onclick="toggleVisibility('NOI-content'); event.stopPropagation();" class="custom-button">Main idea</button>
-                <button id="NOI-Code" onclick="toggleVisibility('NOI-Code-content'); event.stopPropagation();" class="custom-button">Code</button>
-                <div id="NOI-content" style="display: none;" class="content">
-                    <p> Noise, and distortions, especially multiplicative noise, cause granular effects on images. The pivotal point of this work is to remove such effects by transferring the image to the shearlet domain, and statistically model the coefficients to obtain an efficient estimator. For more details please check my <a href="/publications">publications</a>. <span class="code-style">Matlab</span></p>
-                </div>
-                <div id="NOI-Code-content" style="display: none;" class="content">
-                    <p> For implementations please check my <a href="/publications">publications.</a></p>
-                </div>
-            </li>
-        </ul>
-    </li>
-</ul>
+  <li onclick="toggleVisibility('image-denoising')">
+    <h2>Image Denoising</h2> &#9660;
+    <ul id="image-denoising" style="display: none;">
+      <!-- NOI -->
+      <li>
+        <div class="responsive-icon-block">
+         <img src="{{ '/images/TLSpaper.png' | relative_url }}" class="responsive-icon img-Large" alt="Image">
 
-<!-- Time Series/ Sequence Analysis -->
-<ul>
-    <li onclick="toggleVisibility('time-series')"><h2>Time Series/ Sequence Analysis</h2> &#9660;
-        <ul id="time-series" style="display: none;">
-            <!-- FwFw -->
-            <li>
-                <p><strong>Forward Forward algorithm on speaker identification.</strong></p>
-                <button id="FwFw" onclick="toggleVisibility('FwFw-content'); event.stopPropagation();" class="custom-button">Main idea</button>
-                <a href="https://github.com/Aarian/Forward_Forward_TimeSeries" target="_blank" class="custom-button">Code</a>
-                <div id="FwFw-content" style="display: none;" class="content">
-                    <p> Here I have implemented the <a href="https://arxiv.org/abs/2212.13345">forward-forward algorithm</a> for the time series (speech) data, for my conversational AI course. The <span class="code-style">.ipynb</span> file is self contained and has all the detailed information. I also used <a href="https://github.com/mpezeshki/pytorch_forward_forward">this implementation</a> for digit classification and was extended to time series data. <span class="code-style">Python, Pytorch</span></p>
-                </div>
-            </li>
-            <!-- ASR -->
-            <li>
-                <p><strong>Automatic Speech Recognition(ASR) using hybryd attention + CTC model.</strong></p>
-                <button id="ASR" onclick="toggleVisibility('ASR-content'); event.stopPropagation();" class="custom-button">Main idea</button>
-                <a href="https://github.com/Aarian/ASR_CTC" target="_blank" class="custom-button">Code</a>
-                <div id="ASR-content" style="display: none;" class="content">
-                    <p> Using CRDNN model and CTC loss for ASR task. <span class="code-style">Python, speechbrain</span></p>
-                </div>
-            </li>
-            <!-- GLM -->
-            <li>
-                <p><strong>Generative Language Model</strong></p>
-                <button id="GLM" onclick="toggleVisibility('GLM-content'); event.stopPropagation();" class="custom-button">Main idea</button>
-                <a href="https://github.com/Aarian/GenerativeLM" target="_blank" class="custom-button">Code</a>
-                <div id="GLM-content" style="display: none;" class="content">
-                    <p> Here a transformer-based model is used to learn the distribution of text data and finally generate related data, as samples. <span class="code-style">Python, speechbrain</span></p>
-                </div>
-            </li>
-            <!-- MTR -->
-            <li>
-                <p><strong>Machine Translation</strong></p>
-                <button id="MTR" onclick="toggleVisibility('MTR-content'); event.stopPropagation();" class="custom-button">Main idea</button>
-                <a href="https://github.com/Aarian/Seq2Seq_MachineTranslation" target="_blank" class="custom-button">Code</a>
-                <div id="MTR-content" style="display: none;" class="content">
-                    <p> Machine traslation task is implemented using a seq2seq model and a GRU based Encoder/ Decoder Attentive model. <span class="code-style">Python, speechbrain</span></p>
-                </div>
-            </li>
-            <!-- STA -->
-            <li>
-                <p><strong>Air pollution prediction based on statistical models, random processes (GARCH / ARIMA(X) / SARIMA / ETS)</strong></p>
-                <button id="STA" onclick="toggleVisibility('STA-content'); event.stopPropagation();" class="custom-button">Main idea</button>
-                <button id="STA-Code" onclick="toggleVisibility('STA-Code-content'); event.stopPropagation();" class="custom-button">Code</button>
-                <div id="STA-content" style="display: none;" class="content">
-                    <p> Most of the time series are non-stationary, making it hard to follow and predict their future values. In this work, random processes mentioned above were used to learn some patterns like trends, seasonality, volatility clustering, etc. Having this gives us the flexibility to tackle with small amount of data and easier prediction on time series. <span class="code-style">Python, Stats.model.</span></p>
-                </div>
-                <div id="STA-Code-content" style="display: none;" class="content">
-                    <p> This is a private project for AUT and the code is not shareable.</p>
-                </div>
-            </li>
-        </ul>
-    </li>
+          <div class="responsive-content">
+            <p><strong>Image Multiplicative Noise Removal Using Statistical Modeling In The Shearlet Domain. (M.Sc. Thesis)</strong></p>
+
+            <div class="button-row">
+              <button id="NOI" onclick="toggleVisibility('NOI-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+              <button id="NOI-Code" onclick="toggleVisibility('NOI-Code-content'); event.stopPropagation();" class="custom-button">Code</button>
+            </div>
+
+            <div id="NOI-content" style="display: none;" class="content">
+              <p>
+                Noise, and distortions, especially multiplicative noise, cause granular effects on images.
+                The pivotal point of this work is to remove such effects by transferring the image to the shearlet domain,
+                and statistically model the coefficients to obtain an efficient estimator.
+                For more details please check my <a href="/publications">publications</a>.
+                <span class="code-style">Matlab</span>
+              </p>
+            </div>
+
+            <div id="NOI-Code-content" style="display: none;" class="content">
+              <p> For implementations please check my <a href="/publications">publications.</a></p>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </li>
 </ul>
 
 <!-- Watermarking -->

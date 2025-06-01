@@ -410,3 +410,94 @@
   transform: scale(1.05);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
+
+
+
+
+
+
+
+
+.responsive-icon-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Image stays a good size and shrinks on smaller screens */
+/* Base style */
+.responsive-icon {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: auto;
+}
+
+/* Per-image customizations */
+.img-small { width: 250px; }
+.img-medium { width: 220px; }
+.img-large { width: 300px; }
+.img-Large { width: 400px; }
+/* Optional: hover effect for interactivity */
+.responsive-icon:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Content beside image */
+.responsive-content {
+  flex: 1;
+  min-width: 200px;
+}
+
+/* Button group */
+.button-row {
+  margin-top: 0.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+
+
+
+.project-table.no-border {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+}
+
+.project-table.no-border td {
+  border: none;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.project-table.with-border {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.project-table.with-border td {
+  border: 1px solid #ddd;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.project-img-cell {
+  width: 300px;
+  text-align: center;
+}
+
+.project-image.small-img {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: auto;
+}
+}
