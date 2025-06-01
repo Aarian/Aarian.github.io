@@ -357,15 +357,15 @@
   display: flex;
   flex-wrap: wrap;              /* ✅ allows wrapping when space is tight */
   justify-content: flex-start;      /* ✅ center items horizontally */
-  gap: .3rem;                    /* spacing between logos */
+  gap: .1rem;                    /* spacing between logos */
   margin: 1rem auto;
   max-width: 100%;
 }
 
 /* Logo container (circle) */
 .logo-circle {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
   overflow: hidden;
   background-color: white;
