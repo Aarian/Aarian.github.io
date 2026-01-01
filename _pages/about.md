@@ -35,7 +35,7 @@ redirect_from:
   <!--<li><strong>[2025-01-30]</strong>: Successful Completion of Comprehensive Exam.</li> -->
   <!--<li><strong>[2022-09-1]</strong>: Beginning my Ph.D. journey at Concordia University.</li> -->
 
- <li><strong>[2025-12-31]</strong>: Our latest paper entitled <em>A Novel Whittle Index-Based Scheduling for Age of Information Minimization in IoT Networks</em> was published in Conference of <a href="https://ieeexplore.ieee.org/document/11311674">IEEE SmartIOT 2025</a>.</li>
+ <li><strong>[2025-12-31]</strong>: Our latest paper entitled <em>A Novel Whittle Index-Based Scheduling for Age of Information Minimization in IoT Networks</em> was published in Conference <a href="https://ieeexplore.ieee.org/document/11311674">IEEE SmartIOT 2025</a>.</li>
 
   <li><strong>[2022-03-01]</strong>: Our paper entitled <em>A Novel Gaussian-Copula modeling for image despeckling in the shearlet domain</em> was published in Journal of <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168421003777?via%3Dihub">Signal Processing</a>.</li>
 
