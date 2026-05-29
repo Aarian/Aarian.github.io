@@ -1,4 +1,3 @@
-{% comment %}
 ---
 title: "A Novel Whittle Index-Based Scheduling for Age of Information Minimization in IoT Networks"
 collection: publications
@@ -45,5 +44,3 @@ The Message Queuing Telemetry Transport (MQTT) protocol has become a widely adop
 }
 </pre>
 </div>
-
-{% endcomment %}
