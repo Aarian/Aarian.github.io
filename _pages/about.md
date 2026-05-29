@@ -47,7 +47,7 @@ redirect_from:
   
   <li><strong>[2025-02]</strong>: Successful Completion of Ph.D. Comprehensive Exam.</li> 
 
-  <li><strong>[2024-04]</strong>: "Transitioned from the IMPACT Lab to focus on the theoretical aspects of optimization, under the supervision of Dr. Y.R. Shayan and Dr. D. Qiu. </li> 
+  <li><strong>[2024-04]</strong>: Left the IMPACT Lab to focus on the theoretical aspects of optimization and reinforcement learning, continuing under the co-supervision of Dr. Y.R. Shayan and Dr. D. Qiu. </li> 
 
   <li><strong>[2022-09]</strong>: Started Ph.D. studies at the IMPACT Lab, Departement of Electrical and Computer Engineering, Concordia University, under the supervision of Dr. H. Rivaz</li>
 

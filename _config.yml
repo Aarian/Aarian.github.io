@@ -89,7 +89,7 @@ author:
   googlescholar    : "https://scholar.google.ca/citations?user=ajcjbOQAAAAJ&hl=en"
   email            : #"arimorteza@gmail.com"
   researchgate     : "https://www.researchgate.net/profile/Arian-Morteza?ev=prf_overview"
-  uri              :
+  uri              : #"https://dblp.uni-trier.de/pid/278/8647.html"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -115,7 +115,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-
+  dblp             : "https://dblp.uni-trier.de/pid/278/8647.html"
 
 # Reading Files
 include:
