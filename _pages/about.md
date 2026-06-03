@@ -46,11 +46,11 @@ redirect_from:
   
   <li><strong>[2025-02]</strong>: Successful Completion of Ph.D. Comprehensive Exam.</li> 
 
-  <li><strong>[2024-09]</strong>: Continuing Ph.D. research in optimization, and reinforcement learning under the co-supervision of Dr. Y.R. Shayan and Dr. D. Qiu. </li> 
+  <!--<li><strong>[2024-09]</strong>: Continuing Ph.D. research in optimization, and reinforcement learning under the co-supervision of Dr. Y.R. Shayan and Dr. D. Qiu. </li> -->
 
-  <li><strong>[2024-04]</strong>: Shifted research focus toward the theoretical aspects of optimization and reinforcement learning.</li> 
+ <!-- <li><strong>[2024-04]</strong>: Shifted research focus toward the theoretical aspects of optimization and reinforcement learning.</li> -->
 
-  <li><strong>[2022-09]</strong>: Started Ph.D. studies at the IMPACT Lab, Departement of Electrical and Computer Engineering, Concordia University, under the supervision of Dr. H. Rivaz</li>
+<!--  <li><strong>[2022-09]</strong>: Started Ph.D. studies at the IMPACT Lab, Departement of Electrical and Computer Engineering, Concordia University, under the supervision of Dr. H. Rivaz</li> -->
 
   <li><strong>[2022-03]</strong>: <em>A Novel Gaussian-Copula modeling for image despeckling in the shearlet domain</em> was published in Journal of <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168421003777?via%3Dihub">Signal Processing</a>.</li>
 
