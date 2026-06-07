@@ -29,9 +29,9 @@ I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotic
 <div class="news-container">
   <ul>
 
-  <li><strong>[2026-01]</strong>: Journal paper published — <em>A Novel Whittle Index-Based Scheduling for Age of Information Minimization in IoT Networks</em> — <a href="https://ieeexplore.ieee.org/document/11311674">IEEE SmartIOT 2025</a>.</li>
+  <li><strong>[2026-01]</strong>: Conference paper published — <em>A Novel Whittle Index-Based Scheduling for Age of Information Minimization in IoT Networks</em> — <a href="https://ieeexplore.ieee.org/document/11311674">IEEE SmartIOT 2025</a>.</li>
   
-  <li><strong>[2025-02]</strong>: Passed Doctoral Comprehensive Examination at Concordia University — advancing to PhD candidacy stage.</li> 
+  <li><strong>[2025-02]</strong>: Passed Doctoral Comprehensive Examination at Concordia University</li> 
 
   <li><strong>[2022-03]</strong>: Journal paper published — <em>A Novel Gaussian-Copula Modeling for Image Despeckling in the Shearlet Domain</em> — <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168421003777?via%3Dihub">Signal Processing</a>.</li>
 
