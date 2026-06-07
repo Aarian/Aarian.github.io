@@ -1,502 +1,542 @@
 .code-style {
     font-family: 'Courier New', Courier, monospace;
-    color: #007acc; /* Blue color for Python code */
-    background-color: #f0f0f0; /* Light gray background color */
-    padding: 2px 5px; /* Add padding for better readability */
-    border-radius: 3px; /* Add rounded corners */
+    color: #007acc;
+    background-color: #f0f0f0;
+    padding: 2px 5px;
+    border-radius: 3px;
 }
 
-/* Custom button styles */
+/* Custom button styles — navy outlined */
 .custom-button {
     cursor: pointer;
     display: inline-block;
-    padding: 4px 8px; /* Adjust padding to make the button smaller */
-    border: 2px solid #308333; /* Green border */
-    background-color: #308333; /* Green background */
-    color: white;
-    font-size: 14px;
+    padding: 3px 10px;
+    border: 1.5px solid #4a5568;
+    background-color: transparent;
+    color: #4a5568;
+    font-size: 0.78em;
     text-align: center;
     text-decoration: none;
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+    border-radius: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
 }
 
-/* Hover effect */
 .custom-button:hover {
-    background-color: white;
-    color: #308333;
+    background-color: #4a5568;
+    color: #ffffff;
+    text-decoration: none;
 }
 
-/* Focus effect */
 .custom-button:focus {
     outline: none;
-    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    box-shadow: 0 0 5px rgba(44, 95, 138, 0.3);
 }
 
-/* Active effect */
 .custom-button:active {
-    background-color: #308333; /* Darker green */
-    border-color: #308333;
+    background-color: #1a4a72;
+    border-color: #1a4a72;
+    color: #ffffff;
 }
 
 .post-item a {
-    font-size: 1.5em; /* Increase the font size as needed */
+    font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
     color: #007acc;
-  }
-  
-  .post-item a:hover {
+}
+
+.post-item a:hover {
     text-decoration: underline;
-  }
-  
-  .post-meta {
+}
+
+.post-meta {
     display: inline-block;
     margin-left: 0.5rem;
     color: #666;
     font-size: 0.9em;
-  }
-  
-  .calendar-icon {
-    margin-right: 0.3em;
-    color: #007acc; /* Change the color to your preferred one */
-    font-size: 1.2em; /* Adjust the size of the icon */
-    vertical-align: middle; /* Align the icon with the text */
-  }
-
-  .news-container {
-    max-height: 250px; /* Adjust the height as needed */
-    overflow-y: auto; /* Enable vertical scrolling */
-    border: 1px solid #ddd; /* Optional: Add a border for visual separation */
-    padding: 10px;
-    background-color: #f8f9fa; /* Light gray background for contrast */
-    margin-top: 20px; /* Optional: Add some margin on top */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
-  }
-  
-  .news-container:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
-  }
-  
- /* .news-container ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin: 0;
-  }
-  
-  .news-container li {
-    margin-bottom: 10px;
-  } */
-  
-  .news-container a {
-    color: #007acc; /* Link color */
-    text-decoration: none;
-    font-weight: bold; /* Make links bold */
-  }
-  
-  .news-container a:hover {
-    text-decoration: underline;
-  }
-  
-  .news-container::-webkit-scrollbar {
-    width: 8px; /* Width of the scrollbar */
-  }
-  
-  .news-container::-webkit-scrollbar-track {
-    background: #f1f1f1; /* Track color */
-    border-radius: 10px; /* Rounded corners on the track */
-  }
-  
-  .news-container::-webkit-scrollbar-thumb {
-    background: #888; /* Scrollbar thumb color */
-    border-radius: 10px; /* Rounded corners on the thumb */
-  }
-  
-  .news-container::-webkit-scrollbar-thumb:hover {
-    background: #555; /* Darker thumb color on hover */
-  }
-  
-
-  .news-container ul {
-    list-style-type: none; /* Remove default list style */
-    padding-left: 0;
-    margin: 0;
-  }
-  
-  .news-container li {
-    margin-bottom: 10px; /* Space between news items */
-    position: relative; /* Set position to relative for absolute positioning of bullet */
-    padding-left: 20px; /* Add padding for spacing between bullet and text */
-  }
-  
-  .news-container li:before {
-    content: "►"; /* Use a bullet character */
-    position: absolute; /* Position the bullet absolutely */
-    left: 0; /* Position the bullet to the left of the text */
-    color: #da552c; /* Bullet color */
-    font-size: 16px; /* Adjust bullet size */
-    line-height: inherit; /* Match line height of text */
-    top: 0.1em; /* Adjust vertical alignment of bullet */
-  }
-
-  a {
-    color: #007acc;
-    text-decoration: none;
-  }
-
-   a:hover {
-    color: #005fa3;
-    text-decoration: underline;
-  }
-
-  /* Style for the about-container */
-.about-container {
-    max-height: 510px; /* Adjust the height as needed */
-    overflow-y: auto; /* Enable vertical scrolling */
-    border: 1px solid #ddd; /* Optional: Add a border for visual separation */
-    padding: 10px;
-    background-color: #f8f9fa; /* Light gray background for contrast */
-    margin-top: 20px; /* Optional: Add some margin on top */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
 }
 
-.about-container:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+.calendar-icon {
+    margin-right: 0.3em;
+    color: #007acc;
+    font-size: 1.2em;
+    vertical-align: middle;
+}
+
+/* About section — plain flowing content, no box */
+.about-container {
+    margin-top: 10px;
+}
+
+.about-container p {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
 }
 
 .about-container a {
-    color: #007acc; /* Link color */
+    color: #007acc;
     text-decoration: none;
-    font-weight: bold; /* Make links bold */
+    font-weight: bold;
 }
 
 .about-container a:hover {
     text-decoration: underline;
 }
 
-.about-container::-webkit-scrollbar {
-    width: 8px; /* Width of the scrollbar */
+/* News section — no outer box, just per-item cards */
+.news-container {
+    margin-top: 10px;
 }
 
-.about-container::-webkit-scrollbar-track {
-    background: #f1f1f1; /* Track color */
-    border-radius: 10px; /* Rounded corners on the track */
+.news-container a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.about-container::-webkit-scrollbar-thumb {
-    background: #888; /* Scrollbar thumb color */
-    border-radius: 10px; /* Rounded corners on the thumb */
+.news-container a:hover {
+    text-decoration: underline;
 }
 
-.about-container::-webkit-scrollbar-thumb:hover {
-    background: #555; /* Darker thumb color on hover */
+/* News items — timeline style */
+.news-container ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
 }
 
+.news-container li {
+    margin-bottom: 12px;
+    padding: 8px 12px;
+    border-left: 3px solid #007acc;
+    background-color: #fff;
+    border-radius: 0 6px 6px 0;
+    transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.news-container li:hover {
+    border-left-color: #005fa3;
+    background-color: #f0f6fc;
+}
+
+/* About container list */
 .about-container ul {
-    list-style-type: none; /* Remove default list style */
+    list-style-type: none;
     padding-left: 0;
     margin: 0;
 }
 
 .about-container li {
-    margin-bottom: 10px; /* Space between items */
-    position: relative; /* Set position to relative for absolute positioning of bullet */
-    padding-left: 20px; /* Add padding for spacing between bullet and text */
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
 }
 
 .about-container li:before {
-    content: "►"; /* Use a bullet character */
-    position: absolute; /* Position the bullet absolutely */
-    left: 0; /* Position the bullet to the left of the text */
-    color: #da552c; /* Bullet color */
-    font-size: 16px; /* Adjust bullet size */
-    line-height: inherit; /* Match line height of text */
-    top: 0.1em; /* Adjust vertical alignment of bullet */
+    content: "►";
+    position: absolute;
+    left: 0;
+    color: #007acc;
+    font-size: 16px;
+    line-height: inherit;
+    top: 0.1em;
 }
 
+a {
+    color: #007acc;
+    text-decoration: none;
+}
 
-
-
-
-
+a:hover {
+    color: #005fa3;
+    text-decoration: underline;
+}
 
 /* General styles for the Hobbies page */
 .page-hobbies {
-  font-family: 'Georgia', serif;  /* Elegant, professional font */
-  margin: 0;
-  padding: 30px 20px;
-  background-color: #f9f9f9;  /* Light gray background */
-  color: #333;  /* Dark text for readability */
-  border-radius: 10px;  /* Rounded corners for a soft look */
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 30px 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Page title */
 .page-hobbies h1 {
-  text-align: center;
-  font-size: 2.2rem;
-  color: #2c3e50;  /* Slightly darker shade for the title */
-  font-weight: bold;
-  margin-bottom: 30px;
+    text-align: center;
+    font-size: 2.2rem;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
-/* Paragraph styling */
 .page-hobbies p {
-  font-size: 1.1rem;
-  line-height: 1.7;
-  color: #555;  /* Lighter gray for regular text */
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  padding: 20px;
-  background-color: white;
-  border-left: 5px solid #3e8e41;  /* Accent border for emphasis */
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);  /* Soft shadow */
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #555;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border-left: 5px solid #007acc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
-/* Styling links */
 .page-hobbies a {
-  color: #3498db;  /* Primary blue color for links */
-  text-decoration: none;
-  font-weight: normal;
+    color: #007acc;
+    text-decoration: none;
+    font-weight: normal;
 }
 
 .page-hobbies a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
-/* Hobbies list styling */
 .page-hobbies ul {
-  list-style: none;
-  padding-left: 0;
-  margin-left: 0;
-  margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 20px;
 }
 
 .page-hobbies li {
-  font-size: 1.2rem;
-  margin-bottom: 18px;
-  background-color: #ffffff;
-  padding: 12px 15px;
-  border: 1px solid #ecf0f1;  /* Light border for list items */
-  border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);  /* Subtle shadow */
-  transition: all 0.3s ease;  /* Smooth hover effect */
+    font-size: 1.2rem;
+    margin-bottom: 18px;
+    background-color: #ffffff;
+    padding: 12px 15px;
+    border: 1px solid #ecf0f1;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
 }
 
 .page-hobbies li:hover {
-  background-color: #ecf0f1;  /* Light gray background on hover */
-  border-color: #3498db;  /* Muted indigo-blue border color on hover */
+    background-color: #f0f6fc;
+    border-color: #007acc;
 }
 
 .page-hobbies li::before {
-  content: "➤ ";  /* A more intellectual-looking bullet point */
-  color: #3498db;  /* Muted indigo-blue bullet point */
-  font-size: 1.5rem;
+    content: "➤ ";
+    color: #007acc;
+    font-size: 1.5rem;
 }
 
-/* Alternative: Olive Green Option */
-.page-hobbies.olive-green li:hover {
-  background-color: #ecf0f1;  /* Light gray background on hover */
-  border-color: #3e8e41;  /* Olive green border color on hover */
-}
-
-.page-hobbies.olive-green a {
-  color: #3e8e41;  /* Olive green color for links */
-}
-
-.page-hobbies.olive-green li::before {
-  color: #3e8e41;  /* Olive green bullet point */
-}
-
-/* Responsive design */
 @media (max-width: 768px) {
-  .page-hobbies {
-      padding: 20px;
-  }
+    .page-hobbies {
+        padding: 20px;
+    }
 
-  .page-hobbies h1 {
-      font-size: 1.8rem;
-  }
+    .page-hobbies h1 {
+        font-size: 1.8rem;
+    }
 
-  .page-hobbies p {
-      font-size: 1rem;
-  }
+    .page-hobbies p {
+        font-size: 1rem;
+    }
 
-  .page-hobbies li {
-      font-size: 1.1rem;
-  }
+    .page-hobbies li {
+        font-size: 1.1rem;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .university-logos {
-  display: flex;
-  flex-wrap: wrap;              /* ✅ allows wrapping when space is tight */
-  justify-content: flex-start;      /* ✅ center items horizontally */
-  gap: .1rem;                    /* spacing between logos */
-  margin: 1rem auto;
-  max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: .1rem;
+    margin: 1rem auto;
+    max-width: 100%;
 }
 
-/* Logo container (circle) */
 .logo-circle {
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 50%;
-  overflow: hidden;
-  background-color: white;
-  border: 1px solid #ddd;
-  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
 
-/* Logo image */
 .university-logo {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
-
 
 .affiliation-logos {
-  display: flex;
-  justify-content: center;
-  gap: 6px;
-  margin-top: 8px;
-  padding: 8px 0;
-  margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 8px;
+    padding: 8px 0;
+    margin-bottom: 8px;
 }
 
 .affiliation-logo {
-  height: 72px;
-  width: 72px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
-  background-color: white;
-  border: 1px solid #ddd;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
 .affiliation-logo:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
-
-
-
-
-
-
-
 
 .responsive-icon-block {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 1rem;
-  margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 2rem;
 }
 
-/* Image stays a good size and shrinks on smaller screens */
-/* Base style */
 .responsive-icon {
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
-  object-fit: cover;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: auto;
 }
 
-/* Per-image customizations */
-.img-small { width: 250px; }
+.img-small  { width: 250px; }
 .img-medium { width: 220px; }
-.img-large { width: 300px; }
-.img-Large { width: 400px; }
-/* Optional: hover effect for interactivity */
+.img-large  { width: 300px; }
+.img-Large  { width: 400px; }
+
 .responsive-icon:hover {
-  transform: scale(1.02);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Content beside image */
 .responsive-content {
-  flex: 1;
-  min-width: 200px;
+    flex: 1;
+    min-width: 200px;
 }
 
-/* Button group */
 .button-row {
-  margin-top: 0.6rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+    margin-top: 0.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
 }
-
-
-
 
 .project-table.no-border {
-  width: 100%;
-  border-collapse: collapse;
-  border: none;
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
 }
 
 .project-table.no-border td {
-  border: none;
-  vertical-align: top;
-  padding: 10px;
+    border: none;
+    vertical-align: top;
+    padding: 10px;
 }
 
 .project-table.with-border {
-  width: 100%;
-  border-collapse: collapse;
-  border: 1px solid #ccc;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
 }
 
 .project-table.with-border td {
-  border: 1px solid #ddd;
-  vertical-align: top;
-  padding: 10px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+    padding: 10px;
 }
 
 .project-img-cell {
-  width: 300px;
-  text-align: center;
+    width: 300px;
+    text-align: center;
 }
 
 .project-image.small-img {
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
-  object-fit: cover;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: auto;
+}
+
+
+/* ===== Publications & Archive Items ===== */
+
+/* White card per entry on the off-white background */
+.archive__item {
+    background: #ffffff;
+    border-left: 4px solid #2c5f8a;
+    border-radius: 0 8px 8px 0;
+    padding: 1.1em 1.4em;
+    margin-bottom: 1.2em;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.25s ease, border-left-color 0.25s ease;
+}
+
+.archive__item:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    border-left-color: #007acc;
+}
+
+/* Suppress the underline-on-hover from _archive.scss */
+.archive__item:hover .archive__item-title {
+    text-decoration: none;
+}
+
+/* Title — subtle permalink label, not the dominant element */
+.archive__item-title {
+    font-size: 0.88em;
+    margin-top: 0 !important;
+    margin-bottom: 0.25em;
+}
+
+.archive__item-title a {
+    color: #718096 !important;
+    text-decoration: none !important;
+    font-weight: 500;
+}
+
+.archive__item-title a:hover {
+    color: #2c5f8a !important;
+    text-decoration: none !important;
+}
+
+/* "Published in Venue, Year" — small gray italic subtitle */
+.archive__item > p:not([class]) {
+    color: #718096;
+    font-size: 0.82em;
+    margin: 0 0 0.6em;
+    font-style: italic;
+}
+
+/* IEEE citation block */
+.ieee-article {
+    margin-bottom: 0.75em;
+}
+
+.ieee-article p {
+    font-size: 0.96em;
+    line-height: 1.65;
+    margin-bottom: 0.4em;
+    color: #2d3748;
+}
+
+/* Abstract / BibTeX reveal panels */
+div[id$="-content"] {
+    margin-top: 0.8em;
+    padding: 0.85em 1.1em;
+    background-color: #f5f7fa;
+    border-left: 3px solid #2c5f8a;
+    border-radius: 0 6px 6px 0;
+    font-size: 0.88em;
+    line-height: 1.7;
+    color: #4a5568;
+}
+
+div[id$="-content"] pre {
+    background: #edf0f4;
+    padding: 0.75em 1em;
+    border-radius: 4px;
+    font-size: 0.85em;
+    overflow-x: auto;
+    color: #2d3748;
+    margin: 0;
+}
+
+/* Google Scholar link — styled as a small badge */
+.wordwrap {
+    margin-bottom: 1.6em;
+    font-size: 0.95em;
+    color: #4a5568;
+}
+
+.wordwrap a {
+    display: inline-block;
+    margin-left: 0.3em;
+    padding: 2px 10px;
+    border: 1.5px solid #4a5568;
+    border-radius: 4px;
+    color: #4a5568 !important;
+    font-weight: 600;
+    text-decoration: none !important;
+    font-size: 0.88em;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.wordwrap a:hover {
+    background-color: #4a5568;
+    color: #ffffff !important;
+}
+
+
+/* ===== Teaching Table ===== */
+
+.teaching-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5em 0;
+    font-size: 0.95em;
+}
+
+.teaching-table thead th {
+    background-color: #2c5f8a;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 0.85em;
+}
+
+.teaching-table td {
+    padding: 10px 16px;
+    color: #2d3748;
+}
+
+.teaching-table tbody tr {
+    border-bottom: 1px solid #e8e8e4;
+    transition: background-color 0.15s ease;
+}
+
+.teaching-table tbody tr:nth-child(even):not(.section-divider) {
+    background-color: #f0f4f8;
+}
+
+.teaching-table tbody tr:not(.section-divider):hover {
+    background-color: #ddeaf5;
+}
+
+.teaching-table tbody tr:last-of-type {
+    border-bottom: 2px solid #2c5f8a;
+}
+
+/* Section divider rows (Undergraduate / Graduate) */
+.teaching-table .section-divider td {
+    background-color: #f5f7fa;
+    color: #2c5f8a;
+    font-weight: 700;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 7px 16px;
+    border-top: 2px solid #2c5f8a;
+    border-bottom: 1px solid #dde3ea;
 }

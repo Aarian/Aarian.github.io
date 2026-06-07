@@ -1,39 +1,41 @@
-/* Custom button styles */
+/* Custom button styles — slate gray outlined, equal width */
 .custom-button {
     cursor: pointer;
     display: inline-block;
-    padding: 8px 16px; /* Adjust padding to make the button smaller */
-    border: 2px solid #308333; /* Green border */
-    background-color: #308333; /* Green background */
-    color: white;
-    font-size: 16px;
+    min-width: 80px;
+    padding: 4px 10px;
+    border: 1.5px solid #4a5568;
+    background-color: transparent;
+    color: #4a5568;
+    font-size: 0.78em;
     text-align: center;
     text-decoration: none;
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+    border-radius: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    box-sizing: border-box;
 }
 
-/* Hover effect */
 .custom-button:hover {
-    background-color: white;
-    color: #308333;
+    background-color: #4a5568;
+    color: #ffffff;
+    text-decoration: none;
 }
 
-/* Focus effect */
 .custom-button:focus {
     outline: none;
-    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    box-shadow: 0 0 5px rgba(74, 85, 104, 0.3);
 }
 
-/* Active effect */
 .custom-button:active {
-    background-color: #308333; /* Darker green */
-    border-color: #308333;
+    background-color: #2d3748;
+    border-color: #2d3748;
+    color: #ffffff;
 }
-
 
 .fancy-toggle-button {
-    background-color: #007acc;
+    background-color: #4a5568;
     color: white;
     border: none;
     padding: 5px 10px;
@@ -41,22 +43,21 @@
     border-radius: 50%;
     cursor: pointer;
     margin-left: 10px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.2s ease;
 }
 
 .fancy-toggle-button:hover {
-    background-color: #005fa3;
+    background-color: #2d3748;
 }
 
-
 .content {
-    border: 1px solid #ddd;
+    border: 1px solid #e8e8e4;
     padding: 10px;
-    background-color: #f8f9fa;
+    background-color: #f5f7fa;
     margin-top: 10px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease-in-out;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    transition: all 0.2s ease-in-out;
 }
 
 .dropdown-content {
@@ -67,7 +68,7 @@
 
 .dropdown-content.show {
     display: block;
-    max-height: 1000px; /* Arbitrary large value to accommodate content */
+    max-height: 1000px;
 }
 
 .hidden {
