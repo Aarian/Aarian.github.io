@@ -14,12 +14,10 @@ redirect_from:
 
 <p>Welcome to my home page 😊 </p> 
 <p> My name is Arian (Persian: <b>آریان </b>) – you can also call me <b>Ari</b>. 
-I am a researcher in Electrical and Computer Engineering, currently based at <a href="https://www.concordia.ca/">Concordia University</a>, where I work as a Research Assistant and conduct doctoral-level research.
+I am a researcher in Electrical and Computer Engineering, currently based at <a href="https://www.concordia.ca/">Concordia University</a>, where I work as a Research Assistant.
 I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotics) from the Department of Computer Engineering, <a href="https://aut.ac.ir/en">Amirkabir University of Technology (Tehran Polytechnic)</a>. I also received my B.Sc. in Computer Engineering (Computer Hardware) from the CSE &amp; IT Department of <a href="https://cse.shirazu.ac.ir/en/home">Shiraz University</a>.</p>
 
-<p>I find great fulfillment in exploring the intersection of theoretical principles in machine and deep learning with their diverse applications. My master's research centered on statistical signal processing, specifically modeling space-time-frequency representations in image processing. I explored image decomposition techniques to uncover latent representations across new domains, coupled with the statistical analysis of the resulting coefficients. In terms of methodology, my previous work was grounded in Applied Deep Learning. My current research focuses on statistical modeling, optimization, and reinforcement learning, with applications spanning (medical) image processing, wireless communication, and time-series analysis.</p>
-
-<p>I am actively seeking <b>PhD positions and research opportunities</b> where I can contribute to and grow within a strong research environment.</p>
+<p>I find great fulfillment in exploring the intersection of theoretical principles in machine and deep learning with their diverse applications. My master's research centered on statistical signal processing, specifically modeling space-time-frequency representations in image processing. I explored image decomposition techniques to uncover latent representations across new domains, coupled with the statistical analysis of the resulting coefficients. My current research focuses on statistical modeling, optimization, and reinforcement learning, with applications spanning (medical) image processing, wireless communication, and time-series analysis.</p>
 
 </div>
 
