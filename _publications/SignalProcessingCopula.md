@@ -20,6 +20,13 @@ venue: 'Signal Processing'
 <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168421003777?via%3Dihub" target="_blank" class="custom-button">Paper</a>
 <!--<button id="code" onclick="toggleVisibility('code-content')" class="custom-button">Code</button>
 <button id="paper" onclick="toggleVisibility('paper-content')" class="custom-button">Paper</button> -->
+<div class="pub-keywords">
+  <span class="pub-keyword">Multiplicative noise</span>
+  <span class="pub-keyword">Non sub sampled shearlet transform</span>
+  <span class="pub-keyword">BCGM</span>
+  <span class="pub-keyword">Gaussian-Copula</span>
+  <span class="pub-keyword">Shearlet transform</span>
+</div>
 <div id="SPabstract-content" style="display: none;"> <b>Abstract:</b> Image denoising, degraded by speckle noise, has turned into a prevalent problem in image processing. Speckle noise provides a granular perspective into the image and makes it difficult to have a clear interpretation of the singular and non-singular points. This paper proposes a novel statistical approach based on Gaussian Copula modeling in the Shearlet domain. The proposed multi-dimensional Minimum Mean Square Error (MMSE) processor consists of two key components. First, Bi Parameter Cauchy Gaussian Mixture model (BCGM) as the marginal distribution of shearlet coefficients is employed. Second, the joint-prior distribution modeling is formed, based on proposing the Gaussian copula, to model the dependency of the target coefficient respect to its neighbors. The closed form mathematical expression of proposed multi dimensional MMSE processor has some computational advantages, such as parallel computing. It will be shown that the proposed processor has adaptive behavior, meaning that, working non-linearly according to the estimated noise variance on each scale and direction of the shratlet transform. This behavior confirms that the designed processor is not sensitive to initial parameter settings, unlike the state-of-the-art filters in this area.</div>
 <div id="SPbibtex-content" style="display: none;">
     <pre class="bibtex">
