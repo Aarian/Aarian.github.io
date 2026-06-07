@@ -24,15 +24,26 @@
  <!-- added by me for university logos--> 
  
  <div class="university-logos">
-  <div class="logo-circle">
-    <img src="{{ '/images/SU6.png'}}" alt="Shiraz University" class="university-logo">
-  </div>
-  <div class="logo-circle">
-    <img src="{{ '/images/AUT2.png'}}" alt="AUT" class="university-logo">
-  </div>
-  <div class="logo-circle">
-    <img src="{{ '/images/Concordia1.png'}}" alt="Concordia University" class="university-logo">
-  </div>
+  <a href="https://cse.shirazu.ac.ir/en/home" target="_blank" rel="noopener">
+    <div class="logo-circle">
+      <img src="{{ '/images/SU6.png'}}" alt="Shiraz University" class="university-logo">
+    </div>
+  </a>
+  <a href="https://aut.ac.ir/en" target="_blank" rel="noopener">
+    <div class="logo-circle">
+      <img src="{{ '/images/AUT2.png'}}" alt="Amirkabir University of Technology" class="university-logo">
+    </div>
+  </a>
+  <a href="https://www.concordia.ca/" target="_blank" rel="noopener">
+    <div class="logo-circle">
+      <img src="{{ '/images/Concordia1.png'}}" alt="Concordia University" class="university-logo">
+    </div>
+  </a>
+  <a href="https://mila.quebec/en/directory/arian-morteza" target="_blank" rel="noopener">
+    <div class="logo-circle">
+      <img src="{{ '/images/Mila.jpeg'}}" alt="Mila" class="university-logo">
+    </div>
+  </a>
 </div>
 
 
@@ -90,6 +101,12 @@
       {% endif %}                        
       {% if author.researchgate %}
         <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate icon-pad-right" aria-hidden="true"></i>ResearchGate</a></li>
+      {% endif %}
+      {% if author.dblp %}
+        <li><a href="{{ author.dblp }}"><i class="ai ai-dblp ai-fw icon-pad-right"></i>DBLP</a></li>
+      {% endif %}
+      {% if author.mila %}
+        <li><a href="{{ author.mila }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>Mila</a></li>
       {% endif %}
 
       <!-- Font Awesome icons / Repositories and software development -->

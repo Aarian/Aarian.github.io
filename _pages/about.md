@@ -15,7 +15,7 @@ redirect_from:
 <p>Welcome to my home page 😊 </p> 
 <p> My name is Arian (Persian: <b>آریان </b>) – you can also call me <b>Ari</b>. 
 I am a researcher in Electrical and Computer Engineering, currently based at <a href="https://www.concordia.ca/">Concordia University</a>, where I work as a Research Assistant and conduct doctoral-level research.
-I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotics) from the Department of Computer Engineering, <a href="https://aut.ac.ir/en">Amirkabir University of Technology (Tehran Polytechnic)</a>. I also received my B.Sc. in Computer Engineering (Computer Hardware) from the CSE &amp; IT Department of <a href="https://shirazu.ac.ir/en/home">Shiraz University</a>.</p>
+I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotics) from the Department of Computer Engineering, <a href="https://aut.ac.ir/en">Amirkabir University of Technology (Tehran Polytechnic)</a>. I also received my B.Sc. in Computer Engineering (Computer Hardware) from the CSE &amp; IT Department of <a href="https://cse.shirazu.ac.ir/en/home">Shiraz University</a>.</p>
 
 <p>I find great fulfillment in exploring the intersection of theoretical principles in machine and deep learning with their diverse applications. My master's research centered on statistical signal processing, specifically modeling space-time-frequency representations in image processing. I explored image decomposition techniques to uncover latent representations across new domains, coupled with the statistical analysis of the resulting coefficients. In terms of methodology, my previous work was grounded in Applied Deep Learning. My current research focuses on statistical modeling, optimization, and reinforcement learning, with applications spanning (medical) image processing, wireless communication, and time-series analysis.</p>
 
@@ -31,7 +31,9 @@ I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotic
 
   <li><strong>[2026-01]</strong>: Conference paper published — <em>A Novel Whittle Index-Based Scheduling for Age of Information Minimization in IoT Networks</em> — <a href="https://ieeexplore.ieee.org/document/11311674">IEEE SmartIOT 2025</a>.</li>
   
-  <li><strong>[2025-02]</strong>: Passed Doctoral Comprehensive Examination at Concordia University</li> 
+  <li><strong>[2025-02]</strong>: Passed Doctoral Comprehensive Examination at Concordia University</li>
+
+  <li><strong>[2023-09 / 2024-04]</strong>: Research Assistant at <a href="https://mila.quebec">Mila – Quebec AI Institute</a>.</li>
 
   <li><strong>[2022-03]</strong>: Journal paper published — <em>A Novel Gaussian-Copula Modeling for Image Despeckling in the Shearlet Domain</em> — <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168421003777?via%3Dihub">Signal Processing</a>.</li>
 
