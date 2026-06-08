@@ -27,13 +27,13 @@ I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotic
 <div class="news-container">
   <ul>
 
-  <li><strong>[2026-01]</strong>: Conference paper published — <em>A Novel Whittle Index-Based Scheduling for Age of Information Minimization in IoT Networks</em> — <a href="https://ieeexplore.ieee.org/document/11311674">IEEE SmartIOT 2025</a>.</li>
+  <li><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"><span><strong>[2026-01]</strong>: Conference paper published — <em>A Novel Whittle Index-Based Scheduling for Age of Information Minimization in IoT Networks</em> — <a href="https://ieeexplore.ieee.org/document/11311674">IEEE SmartIOT 2025</a>.</span></li>
   
-  <li><strong>[2025-02]</strong>: Passed Doctoral Comprehensive Examination at Concordia University</li>
+  <li><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"><span><strong>[2025-02]</strong>: Passed Doctoral Comprehensive Examination at Concordia University.</span></li>
 
-  <li><strong>[2022-03]</strong>: Journal paper published — <em>A Novel Gaussian-Copula Modeling for Image Despeckling in the Shearlet Domain</em> — <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168421003777?via%3Dihub">Signal Processing</a>.</li>
+  <li><img src="/images/AUT2.png" alt="Amirkabir University" class="news-logo"><span><strong>[2022-03]</strong>: Journal paper published — <em>A Novel Gaussian-Copula Modeling for Image Despeckling in the Shearlet Domain</em> — <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168421003777?via%3Dihub">Signal Processing</a>.</span></li>
 
-  <li><strong>[2020-12]</strong>: Journal paper published — <em>A Novel Statistical Approach for Multiplicative Speckle Removal Using t-Location-Scale and Non-Subsampled Shearlet Transform</em> — <a href="https://www.sciencedirect.com/science/article/abs/pii/S1051200420302025">Digital Signal Processing</a>.</li>
+  <li><img src="/images/AUT2.png" alt="Amirkabir University" class="news-logo"><span><strong>[2020-12]</strong>: Journal paper published — <em>A Novel Statistical Approach for Multiplicative Speckle Removal Using t-Location-Scale and Non-Subsampled Shearlet Transform</em> — <a href="https://www.sciencedirect.com/science/article/abs/pii/S1051200420302025">Digital Signal Processing</a>.</span></li>
 
   </ul>
 </div>
