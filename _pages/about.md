@@ -31,6 +31,8 @@ I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotic
   
   <li><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"><span><strong>[2025-02]</strong>: Passed Doctoral Comprehensive Examination at Concordia University.</span></li>
 
+  <li><img src="/images/Mila.jpeg" alt="Mila" class="news-logo"><span><strong>[2023-09 / 2024-04]</strong>: Research Assistant at <a href="https://mila.quebec">Mila – Quebec AI Institute</a>.</span></li>
+
   <li><img src="/images/AUT2.png" alt="Amirkabir University" class="news-logo"><span><strong>[2022-03]</strong>: Journal paper published — <em>A Novel Gaussian-Copula Modeling for Image Despeckling in the Shearlet Domain</em> — <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168421003777?via%3Dihub">Signal Processing</a>.</span></li>
 
   <li><img src="/images/AUT2.png" alt="Amirkabir University" class="news-logo"><span><strong>[2020-12]</strong>: Journal paper published — <em>A Novel Statistical Approach for Multiplicative Speckle Removal Using t-Location-Scale and Non-Subsampled Shearlet Transform</em> — <a href="https://www.sciencedirect.com/science/article/abs/pii/S1051200420302025">Digital Signal Processing</a>.</span></li>
