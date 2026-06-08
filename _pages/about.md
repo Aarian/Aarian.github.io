@@ -31,7 +31,7 @@ I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotic
   
   <li><div class="news-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"></div><span><strong>[2025-02]</strong>: Passed Doctoral Comprehensive Examination at Concordia University.</span></li>
 
-  <li><div class="news-logos"><img src="/images/Mila.jpeg" alt="Mila" class="news-logo"></div><span><strong>[2023-09]</strong>: Joined <a href="https://mila.quebec">Mila – Quebec AI Institute</a> as a Research Assistant.</span></li>
+  <li><div class="news-logos"><img src="/images/Mila.jpeg" alt="Mila" class="news-logo"></div><span><strong>[2023-09]</strong>: Joined <a href="https://mila.quebec/en/directory/arian-morteza">Mila – Quebec AI Institute</a> as a Research Assistant.</span></li>
 
   <li><div class="news-logos"><img src="/images/AUT2.png" alt="Amirkabir University" class="news-logo"><img src="/images/Signal Processing Logo.jpg" alt="Signal Processing" class="news-logo"></div><span><strong>[2022-03]</strong>: Journal paper published — <em>A Novel Gaussian-Copula Modeling for Image Despeckling in the Shearlet Domain</em> — <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168421003777?via%3Dihub">Signal Processing</a>.</span></li>
 
