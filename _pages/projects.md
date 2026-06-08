@@ -122,11 +122,8 @@ Here, I have listed some of my works, based on their applications. Please click 
                 <button id="STA-Code" onclick="toggleVisibility('STA-Code-content'); event.stopPropagation();" class="custom-button">Code</button>
               </div>
               <div class="pub-keywords">
-                <span class="pub-keyword">ARIMA</span>
-                <span class="pub-keyword">GARCH</span>
-                <span class="pub-keyword">SARIMA</span>
                 <span class="pub-keyword">Statistical Modeling</span>
-                <span class="pub-keyword">Air Pollution Prediction</span>
+                <span class="pub-keyword">Air Quality Prediction</span>
                 <span class="pub-keyword">Time Series</span>
               </div>
               <div id="STA-content" style="display: none;" class="content">
