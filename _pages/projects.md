@@ -110,30 +110,6 @@ Here, I have listed some of my works, based on their applications. Please click 
               </div>
             </td>
           </tr>
-          <!-- STA -->
-          <tr>
-            <td class="project-img-cell">
-              <img src="{{ '/images/ARIMAX.png' | relative_url }}" alt="ARIMAX Model" class="responsive-icon img-small">
-            </td>
-            <td class="project-content-cell">
-              <p><strong>Air pollution prediction based on statistical models, random processes (GARCH / ARIMA(X) / SARIMA / ETS)</strong></p>
-              <div class="button-row">
-                <button id="STA" onclick="toggleVisibility('STA-content'); event.stopPropagation();" class="custom-button">Main idea</button>
-                <button id="STA-Code" onclick="toggleVisibility('STA-Code-content'); event.stopPropagation();" class="custom-button">Code</button>
-              </div>
-              <div class="pub-keywords">
-                <span class="pub-keyword">Statistical Modeling</span>
-                <span class="pub-keyword">Air Quality Prediction</span>
-                <span class="pub-keyword">Time Series</span>
-              </div>
-              <div id="STA-content" style="display: none;" class="content">
-                <p>Most time series are non-stationary... <span class="code-style">Python, Stats.model.</span></p>
-              </div>
-              <div id="STA-Code-content" style="display: none;" class="content">
-                <p>This is a private project for AUT and the code is not shareable.</p>
-              </div>
-            </td>
-          </tr>
         </table>
       </li>
     </ul>
