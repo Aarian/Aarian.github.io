@@ -30,6 +30,13 @@ Here, I have listed some of my works, based on their applications. Please click 
                 <button id="FwFw" onclick="toggleVisibility('FwFw-content'); event.stopPropagation();" class="custom-button">Main idea</button>
                 <a href="https://github.com/Aarian/Forward_Forward_TimeSeries" target="_blank" class="custom-button">Code</a>
               </div>
+              <div class="pub-keywords">
+                <span class="pub-keyword">Forward-Forward Algorithm</span>
+                <span class="pub-keyword">Speaker Identification</span>
+                <span class="pub-keyword">Time Series</span>
+                <span class="pub-keyword">Deep Learning</span>
+                <span class="pub-keyword">PyTorch</span>
+              </div>
               <div id="FwFw-content" style="display: none;" class="content">
                 <p>Here I have implemented the <a href="https://arxiv.org/abs/2212.13345">forward-forward algorithm</a> for the time series (speech) data... <span class="code-style">Python, Pytorch</span></p>
               </div>
@@ -45,6 +52,13 @@ Here, I have listed some of my works, based on their applications. Please click 
               <div class="button-row">
                 <button id="ASR" onclick="toggleVisibility('ASR-content'); event.stopPropagation();" class="custom-button">Main idea</button>
                 <a href="https://github.com/Aarian/ASR_CTC" target="_blank" class="custom-button">Code</a>
+              </div>
+              <div class="pub-keywords">
+                <span class="pub-keyword">Automatic Speech Recognition</span>
+                <span class="pub-keyword">CTC</span>
+                <span class="pub-keyword">CRDNN</span>
+                <span class="pub-keyword">Attention</span>
+                <span class="pub-keyword">SpeechBrain</span>
               </div>
               <div id="ASR-content" style="display: none;" class="content">
                 <p>Using CRDNN model and CTC loss for ASR task. <span class="code-style">Python, speechbrain</span></p>
@@ -62,6 +76,12 @@ Here, I have listed some of my works, based on their applications. Please click 
                 <button id="GLM" onclick="toggleVisibility('GLM-content'); event.stopPropagation();" class="custom-button">Main idea</button>
                 <a href="https://github.com/Aarian/GenerativeLM" target="_blank" class="custom-button">Code</a>
               </div>
+              <div class="pub-keywords">
+                <span class="pub-keyword">Generative Language Model</span>
+                <span class="pub-keyword">Transformer</span>
+                <span class="pub-keyword">Text Generation</span>
+                <span class="pub-keyword">Deep Learning</span>
+              </div>
               <div id="GLM-content" style="display: none;" class="content">
                 <p>Here a transformer-based model is used to learn the distribution of text data and finally generate related data, as samples. <span class="code-style">Python, speechbrain</span></p>
               </div>
@@ -78,6 +98,13 @@ Here, I have listed some of my works, based on their applications. Please click 
                 <button id="MTR" onclick="toggleVisibility('MTR-content'); event.stopPropagation();" class="custom-button">Main idea</button>
                 <a href="https://github.com/Aarian/Seq2Seq_MachineTranslation" target="_blank" class="custom-button">Code</a>
               </div>
+              <div class="pub-keywords">
+                <span class="pub-keyword">Machine Translation</span>
+                <span class="pub-keyword">Seq2Seq</span>
+                <span class="pub-keyword">GRU</span>
+                <span class="pub-keyword">Encoder-Decoder</span>
+                <span class="pub-keyword">Attention</span>
+              </div>
               <div id="MTR-content" style="display: none;" class="content">
                 <p>Machine translation task is implemented using a seq2seq model and a GRU-based Encoder/Decoder with Attention. <span class="code-style">Python, speechbrain</span></p>
               </div>
@@ -93,6 +120,14 @@ Here, I have listed some of my works, based on their applications. Please click 
               <div class="button-row">
                 <button id="STA" onclick="toggleVisibility('STA-content'); event.stopPropagation();" class="custom-button">Main idea</button>
                 <button id="STA-Code" onclick="toggleVisibility('STA-Code-content'); event.stopPropagation();" class="custom-button">Code</button>
+              </div>
+              <div class="pub-keywords">
+                <span class="pub-keyword">ARIMA</span>
+                <span class="pub-keyword">GARCH</span>
+                <span class="pub-keyword">SARIMA</span>
+                <span class="pub-keyword">Statistical Modeling</span>
+                <span class="pub-keyword">Air Pollution Prediction</span>
+                <span class="pub-keyword">Time Series</span>
               </div>
               <div id="STA-content" style="display: none;" class="content">
                 <p>Most time series are non-stationary... <span class="code-style">Python, Stats.model.</span></p>
@@ -127,6 +162,14 @@ Here, I have listed some of my works, based on their applications. Please click 
               <a href="https://github.com/Aarian/BrainDecoding/tree/master/Slides" target="_blank" class="custom-button">Slides</a>
             </div>
 
+            <div class="pub-keywords">
+              <span class="pub-keyword">Brain Decoding</span>
+              <span class="pub-keyword">Graph Neural Network</span>
+              <span class="pub-keyword">fMRI</span>
+              <span class="pub-keyword">Task Classification</span>
+              <span class="pub-keyword">Connectivity</span>
+            </div>
+
             <div id="BRDEC-content" style="display: none;" class="content">
               <p>Brain decoding is a procedure for discovering the brain activity, based on its encoded data. Here a graph neural network approach has been used for training, and task classification of encoded data.</p>
             </div>
@@ -157,6 +200,15 @@ Here, I have listed some of my works, based on their applications. Please click 
               <button id="NOI-Code" onclick="toggleVisibility('NOI-Code-content'); event.stopPropagation();" class="custom-button">Code</button>
             </div>
 
+            <div class="pub-keywords">
+              <span class="pub-keyword">Multiplicative Noise Removal</span>
+              <span class="pub-keyword">Shearlet Transform</span>
+              <span class="pub-keyword">Statistical Modeling</span>
+              <span class="pub-keyword">MMSE Estimation</span>
+              <span class="pub-keyword">Image Processing</span>
+              <span class="pub-keyword">Matlab</span>
+            </div>
+
             <div id="NOI-content" style="display: none;" class="content">
               <p>
                 Noise, and distortions, especially multiplicative noise, cause granular effects on images.
@@ -184,8 +236,17 @@ Here, I have listed some of my works, based on their applications. Please click 
             <!-- WTR -->
             <li>
                 <p><strong>Statistical Analysis of Contourlet Coefficients of Watermarked Images.</strong></p>
-                <button id="WTR" onclick="toggleVisibility('WTR-content'); event.stopPropagation();" class="custom-button">Main idea</button>
-                <a href="https://github.com/Aarian/Watermark_Detector" target="_blank" class="custom-button">Code</a>
+                <div class="button-row">
+                  <button id="WTR" onclick="toggleVisibility('WTR-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+                  <a href="https://github.com/Aarian/Watermark_Detector" target="_blank" class="custom-button">Code</a>
+                </div>
+                <div class="pub-keywords">
+                  <span class="pub-keyword">Watermark Detection</span>
+                  <span class="pub-keyword">Contourlet Transform</span>
+                  <span class="pub-keyword">Generalized Gaussian</span>
+                  <span class="pub-keyword">Statistical Detector</span>
+                  <span class="pub-keyword">ROC Curve</span>
+                </div>
                 <div id="WTR-content" style="display: none;" class="content">
                     <p> Designing an efficient statistical detector to classify the watermarked coefficients from the clear one. The Generalized Gaussian as a prior for contourlet coefficient is employed, and ROC curve is used to evaluate the designed statistical detector. <span class="code-style">Matlab</span></p>
                 </div>
@@ -193,8 +254,16 @@ Here, I have listed some of my works, based on their applications. Please click 
             <!-- RND -->
             <li>
                 <p><strong>Injecting a text message into a 12 channels electrocardiogram signal based on pseudo-random permutation. (B.Sc. Project)</strong></p>
-                <button id="RND" onclick="toggleVisibility('RND-content'); event.stopPropagation();" class="custom-button">Main idea</button>
-                <a href="https://github.com/Aarian/ECG-Watermarking" target="_blank" class="custom-button">Code</a>
+                <div class="button-row">
+                  <button id="RND" onclick="toggleVisibility('RND-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+                  <a href="https://github.com/Aarian/ECG-Watermarking" target="_blank" class="custom-button">Code</a>
+                </div>
+                <div class="pub-keywords">
+                  <span class="pub-keyword">ECG Watermarking</span>
+                  <span class="pub-keyword">Pseudo-random Permutation</span>
+                  <span class="pub-keyword">Signal Processing</span>
+                  <span class="pub-keyword">Electrocardiogram</span>
+                </div>
                 <div id="RND-content" style="display: none;" class="content">
                     <p> The key point relies on erratically, by a pseudo-random permutation algorithm, change the channels order, without information loss. <span class="code-style">Matlab</span></p>
                 </div>
@@ -210,8 +279,17 @@ Here, I have listed some of my works, based on their applications. Please click 
             <!-- BDA-CUR -->
             <li>
                 <p><strong>High dimentional KNN algorithm with CUR matrix approximation </strong></p>
-                <button id="BDA" onclick="toggleVisibility('BDA-content'); event.stopPropagation();" class="custom-button">Main idea</button>
-                <a href="https://github.com/Aarian/KNN_CUR" target="_blank" class="custom-button">Code</a>
+                <div class="button-row">
+                  <button id="BDA" onclick="toggleVisibility('BDA-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+                  <a href="https://github.com/Aarian/KNN_CUR" target="_blank" class="custom-button">Code</a>
+                </div>
+                <div class="pub-keywords">
+                  <span class="pub-keyword">KNN</span>
+                  <span class="pub-keyword">CUR Decomposition</span>
+                  <span class="pub-keyword">Dimensionality Reduction</span>
+                  <span class="pub-keyword">SVD</span>
+                  <span class="pub-keyword">High-dimensional Data</span>
+                </div>
                 <div id="BDA-content" style="display: none;" class="content">
                     <p> Implementation of KNN algorithm based on a dimension reduction algorithm (CUR decomposition as low rank approximation of SVD). <span class="code-style">Python, Matlab</span></p>
                 </div>
@@ -219,8 +297,16 @@ Here, I have listed some of my works, based on their applications. Please click 
             <!-- BDA-LSH -->
             <li>
                 <p><strong>High dimentional KNN algorithm with Locality Sensitive Hashing(LSH) </strong></p>
-                <button id="BDA-LSH" onclick="toggleVisibility('BDA-LSH-content'); event.stopPropagation();" class="custom-button">Main idea</button>
-                <a href="https://github.com/Aarian/KNN_LSH.git" target="_blank" class="custom-button">Code</a>
+                <div class="button-row">
+                  <button id="BDA-LSH" onclick="toggleVisibility('BDA-LSH-content'); event.stopPropagation();" class="custom-button">Main idea</button>
+                  <a href="https://github.com/Aarian/KNN_LSH.git" target="_blank" class="custom-button">Code</a>
+                </div>
+                <div class="pub-keywords">
+                  <span class="pub-keyword">KNN</span>
+                  <span class="pub-keyword">Locality Sensitive Hashing</span>
+                  <span class="pub-keyword">High-dimensional Data</span>
+                  <span class="pub-keyword">Approximate Nearest Neighbor</span>
+                </div>
                 <div id="BDA-LSH-content" style="display: none;" class="content">
                     <p> Implementation of KNN algorithm based on Locality Sensitive Hashing(LSH). <span class="code-style">Python</span></p>
                 </div>
