@@ -19,11 +19,12 @@ I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotic
 
 <p>I find great fulfillment in exploring the intersection of theoretical principles in machine and deep learning with their diverse applications. My master's research centered on statistical signal processing, specifically modeling space-time-frequency representations in image processing. I explored image decomposition techniques to uncover latent representations across new domains, coupled with the statistical analysis of the resulting coefficients. My current research focuses on statistical modeling, optimization, and reinforcement learning.</p>
 
+
+</div>
+
 <div class="announcement">
   <span class="announcement-icon"><i class="fas fa-bullhorn"></i></span>
   <p>I am open to collaboration and always happy to connect with researchers working on related problems. If you have an open position or a project you think could be a good fit, feel free to reach out.</p>
-</div>
-
 </div>
 
 
