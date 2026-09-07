@@ -528,6 +528,45 @@ div[id$="-content"] pre {
 }
 
 
+/* ===== Announcement callout ===== */
+
+.announcement {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 1.2em 0;
+    padding: 14px 16px;
+    background-color: #eaf4fb;
+    border-left: 4px solid #007acc;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 2px 8px rgba(0, 122, 204, 0.08);
+}
+
+.announcement-icon {
+    color: #007acc;
+    font-size: 1.15em;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.announcement p {
+    margin: 0;
+    color: #2d3748;
+    font-size: 0.97em;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.announcement a {
+    color: #007acc;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.announcement a:hover {
+    text-decoration: underline;
+}
+
 /* ===== Teaching Table ===== */
 
 .teaching-table {
