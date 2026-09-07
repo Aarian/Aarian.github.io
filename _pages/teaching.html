@@ -5,8 +5,85 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+<link rel="stylesheet" href="{{ '/assets/css/mylib.css' | relative_url }}">
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<table class="teaching-table">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Course</th>
+      <th>Level</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr class="section-divider">
+      <td colspan="3">Undergraduate</td>
+    </tr>
+    <tr class="inst-concordia">
+      <td class="teaching-logo-cell"><div class="teaching-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"></div></td>
+      <td class="course-cell">Probability &amp; Statistics</td>
+      <td><span class="level-badge ug">Undergrad.</span></td>
+    </tr>
+    <tr class="inst-concordia">
+      <td class="teaching-logo-cell"><div class="teaching-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"></div></td>
+      <td class="course-cell">Advanced Programming (C++)</td>
+      <td><span class="level-badge ug">Undergrad.</span></td>
+    </tr>
+    <tr class="inst-concordia">
+      <td class="teaching-logo-cell"><div class="teaching-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"></div></td>
+      <td class="course-cell">Data Base Design</td>
+      <td><span class="level-badge ug">Undergrad.</span></td>
+    </tr>
+    <tr class="inst-concordia">
+      <td class="teaching-logo-cell"><div class="teaching-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"></div></td>
+      <td class="course-cell">Technical Writing</td>
+      <td><span class="level-badge ug">Undergrad.</span></td>
+    </tr>
+    <tr class="inst-multi">
+      <td class="teaching-logo-cell"><div class="teaching-logos"><img src="/images/SU6.png" alt="Shiraz University" class="news-logo"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"></div></td>
+      <td class="course-cell">Discrete Mathematics</td>
+      <td><span class="level-badge ug">Undergrad.</span></td>
+    </tr>
+    <tr class="inst-concordia">
+      <td class="teaching-logo-cell"><div class="teaching-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"></div></td>
+      <td class="course-cell">Digital System Design</td>
+      <td><span class="level-badge ug">Undergrad.</span></td>
+    </tr>
+    <tr class="inst-su">
+      <td class="teaching-logo-cell"><div class="teaching-logos"><img src="/images/SU6.png" alt="Shiraz University" class="news-logo"></div></td>
+      <td class="course-cell">Data Structures</td>
+      <td><span class="level-badge ug">Undergrad.</span></td>
+    </tr>
+    <tr class="inst-su">
+      <td class="teaching-logo-cell"><div class="teaching-logos"><img src="/images/SU6.png" alt="Shiraz University" class="news-logo"></div></td>
+      <td class="course-cell">Assembly</td>
+      <td><span class="level-badge ug">Undergrad.</span></td>
+    </tr>
+
+    <tr class="section-divider">
+      <td colspan="3">Graduate</td>
+    </tr>
+    <tr class="inst-aut">
+      <td class="teaching-logo-cell"><div class="teaching-logos"><img src="/images/AUT2.png" alt="Amirkabir University" class="news-logo"></div></td>
+      <td class="course-cell">Optimization</td>
+      <td><span class="level-badge grad">Grad.</span></td>
+    </tr>
+    <tr class="inst-aut">
+      <td class="teaching-logo-cell"><div class="teaching-logos"><img src="/images/AUT2.png" alt="Amirkabir University" class="news-logo"></div></td>
+      <td class="course-cell">Complex Networks</td>
+      <td><span class="level-badge grad">Grad.</span></td>
+    </tr>
+    <tr class="inst-aut">
+      <td class="teaching-logo-cell"><div class="teaching-logos"><img src="/images/AUT2.png" alt="Amirkabir University" class="news-logo"></div></td>
+      <td class="course-cell">Big Data Analysis</td>
+      <td><span class="level-badge grad">Grad.</span></td>
+    </tr>
+    <tr class="inst-aut">
+      <td class="teaching-logo-cell"><div class="teaching-logos"><img src="/images/AUT2.png" alt="Amirkabir University" class="news-logo"></div></td>
+      <td class="course-cell">Stochastic Processes</td>
+      <td><span class="level-badge grad">Grad.</span></td>
+    </tr>
+
+  </tbody>
+</table>

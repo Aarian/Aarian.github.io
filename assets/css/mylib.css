@@ -1,0 +1,680 @@
+.code-style {
+    font-family: 'Courier New', Courier, monospace;
+    color: #007acc;
+    background-color: #f0f0f0;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+/* Custom button styles — navy outlined */
+.custom-button {
+    cursor: pointer;
+    display: inline-block;
+    padding: 3px 10px;
+    border: 1.5px solid #4a5568;
+    background-color: transparent;
+    color: #4a5568;
+    font-size: 0.78em;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+    border-radius: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+.custom-button:hover {
+    background-color: #4a5568;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.custom-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(44, 95, 138, 0.3);
+}
+
+.custom-button:active {
+    background-color: #1a4a72;
+    border-color: #1a4a72;
+    color: #ffffff;
+}
+
+.post-item a {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #007acc;
+}
+
+.post-item a:hover {
+    text-decoration: underline;
+}
+
+.post-meta {
+    display: inline-block;
+    margin-left: 0.5rem;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.calendar-icon {
+    margin-right: 0.3em;
+    color: #007acc;
+    font-size: 1.2em;
+    vertical-align: middle;
+}
+
+/* About section — plain flowing content, no box */
+.about-container {
+    margin-top: 10px;
+}
+
+.about-container p {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+}
+
+.about-container a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-container a:hover {
+    text-decoration: underline;
+}
+
+/* News section — no outer box, just per-item cards */
+.news-container {
+    margin-top: 10px;
+}
+
+.news-container a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.news-container a:hover {
+    text-decoration: underline;
+}
+
+/* News items — timeline style */
+.news-container ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.news-container li {
+    margin-bottom: 12px;
+    padding: 8px 12px;
+    border-left: 3px solid #007acc;
+    background-color: #fff;
+    border-radius: 0 6px 6px 0;
+    transition: border-color 0.2s ease, background-color 0.2s ease;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.news-logos {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.news-logo {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #e2e8f0;
+}
+
+.news-container li:hover {
+    border-left-color: #005fa3;
+    background-color: #f0f6fc;
+}
+
+/* About container list */
+.about-container ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.about-container li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.about-container li:before {
+    content: "►";
+    position: absolute;
+    left: 0;
+    color: #007acc;
+    font-size: 16px;
+    line-height: inherit;
+    top: 0.1em;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #005fa3;
+    text-decoration: underline;
+}
+
+/* General styles for the Hobbies page */
+.page-hobbies {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 30px 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.page-hobbies h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.page-hobbies p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #555;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border-left: 5px solid #007acc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.page-hobbies a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.page-hobbies a:hover {
+    text-decoration: underline;
+}
+
+.page-hobbies ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.page-hobbies li {
+    font-size: 1.2rem;
+    margin-bottom: 18px;
+    background-color: #ffffff;
+    padding: 12px 15px;
+    border: 1px solid #ecf0f1;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.page-hobbies li:hover {
+    background-color: #f0f6fc;
+    border-color: #007acc;
+}
+
+.page-hobbies li::before {
+    content: "➤ ";
+    color: #007acc;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .page-hobbies {
+        padding: 20px;
+    }
+
+    .page-hobbies h1 {
+        font-size: 1.8rem;
+    }
+
+    .page-hobbies p {
+        font-size: 1rem;
+    }
+
+    .page-hobbies li {
+        font-size: 1.1rem;
+    }
+}
+
+.university-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: .1rem;
+    margin: 1rem auto;
+    max-width: 100%;
+}
+
+.logo-circle {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.university-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.affiliation-logos {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 8px;
+    padding: 8px 0;
+    margin-bottom: 8px;
+}
+
+.affiliation-logo {
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.affiliation-logo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.responsive-icon-block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.responsive-icon {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: auto;
+}
+
+.img-small  { width: 250px; }
+.img-medium { width: 220px; }
+.img-large  { width: 300px; }
+.img-Large  { width: 400px; }
+
+.responsive-icon:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.responsive-content {
+    flex: 1;
+    min-width: 200px;
+}
+
+.button-row {
+    margin-top: 0.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.project-table.no-border {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+
+.project-table.no-border td {
+    border: none;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.project-table.with-border {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+.project-table.with-border td {
+    border: 1px solid #ddd;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.project-img-cell {
+    width: 300px;
+    text-align: center;
+}
+
+.project-image.small-img {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: auto;
+}
+
+
+/* ===== Publications & Archive Items ===== */
+
+/* White card per entry on the off-white background */
+.archive__item {
+    background: #ffffff;
+    border-left: 4px solid #2c5f8a;
+    border-radius: 0 8px 8px 0;
+    padding: 1.1em 1.4em;
+    margin-bottom: 1.2em;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.25s ease, border-left-color 0.25s ease;
+}
+
+.archive__item:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    border-left-color: #007acc;
+}
+
+/* Suppress the underline-on-hover from _archive.scss */
+.archive__item:hover .archive__item-title {
+    text-decoration: none;
+}
+
+/* Title — subtle permalink label, not the dominant element */
+.archive__item-title {
+    font-size: 0.88em;
+    margin-top: 0 !important;
+    margin-bottom: 0.25em;
+}
+
+.archive__item-title a {
+    color: #718096 !important;
+    text-decoration: none !important;
+    font-weight: 500;
+}
+
+.archive__item-title a:hover {
+    color: #2c5f8a !important;
+    text-decoration: none !important;
+}
+
+/* "Published in Venue, Year" — small gray italic subtitle */
+.archive__item > p:not([class]) {
+    color: #718096;
+    font-size: 0.82em;
+    margin: 0 0 0.6em;
+    font-style: italic;
+}
+
+/* IEEE citation block */
+.ieee-article {
+    margin-bottom: 0.75em;
+}
+
+.ieee-article p {
+    font-size: 0.96em;
+    line-height: 1.65;
+    margin-bottom: 0.4em;
+    color: #2d3748;
+}
+
+/* Abstract / BibTeX reveal panels */
+div[id$="-content"] {
+    margin-top: 0.8em;
+    padding: 0.85em 1.1em;
+    background-color: #f5f7fa;
+    border-left: 3px solid #2c5f8a;
+    border-radius: 0 6px 6px 0;
+    font-size: 0.88em;
+    line-height: 1.7;
+    color: #4a5568;
+}
+
+div[id$="-content"] pre {
+    background: #edf0f4;
+    padding: 0.75em 1em;
+    border-radius: 4px;
+    font-size: 0.85em;
+    overflow-x: auto;
+    color: #2d3748;
+    margin: 0;
+}
+
+/* Google Scholar link — styled as a small badge */
+.wordwrap {
+    margin-bottom: 1.6em;
+    font-size: 0.95em;
+    color: #4a5568;
+}
+
+.wordwrap a {
+    display: inline-block;
+    margin-left: 0.3em;
+    padding: 2px 10px;
+    border: 1.5px solid #4a5568;
+    border-radius: 4px;
+    color: #4a5568 !important;
+    font-weight: 600;
+    text-decoration: none !important;
+    font-size: 0.88em;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.wordwrap a:hover {
+    background-color: #4a5568;
+    color: #ffffff !important;
+}
+
+
+/* ===== Publication Keywords ===== */
+
+.pub-keywords {
+    margin-top: 0.75em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.pub-keyword {
+    display: inline-block;
+    padding: 2px 9px;
+    background-color: #edf2f7;
+    color: #4a5568;
+    font-size: 0.74em;
+    border-radius: 10px;
+    border: 1px solid #cbd5e0;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    line-height: 1.6;
+}
+
+
+/* ===== Announcement callout ===== */
+
+.announcement {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 1.2em 0;
+    padding: 14px 16px;
+    background-color: #eaf4fb;
+    border-left: 4px solid #007acc;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 2px 8px rgba(0, 122, 204, 0.08);
+}
+
+.announcement-icon {
+    color: #007acc;
+    font-size: 1.15em;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.announcement p {
+    margin: 0;
+    color: #2d3748;
+    font-size: 0.97em;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.announcement a {
+    color: #007acc;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.announcement a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Teaching Table ===== */
+
+.teaching-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5em 0;
+    font-size: 0.95em;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+.teaching-table thead th {
+    background: linear-gradient(135deg, #1e3a5f 0%, #2c5f8a 100%);
+    color: #ffffff;
+    padding: 13px 16px;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.teaching-table thead th:first-child {
+    padding: 13px 8px;
+    width: 44px;
+}
+
+.teaching-table td {
+    padding: 11px 16px;
+    color: #2d3748;
+    vertical-align: middle;
+    background-color: #ffffff;
+}
+
+.teaching-table tbody tr {
+    border-bottom: 1px solid #edf0f4;
+    transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.teaching-table tbody tr:not(.section-divider):hover td {
+    background-color: #f4f8fd;
+}
+
+.teaching-table tbody tr:last-of-type {
+    border-bottom: none;
+}
+
+/* Institution-colored left accent per row */
+tr.inst-concordia td:first-child { border-left: 4px solid #912338; }
+tr.inst-aut td:first-child        { border-left: 4px solid #1a5276; }
+tr.inst-su td:first-child         { border-left: 4px solid #1d6a3a; }
+tr.inst-multi td:first-child      { border-left: 4px solid #6b4c8a; }
+
+/* Logo cell */
+.teaching-logo-cell {
+    width: 44px;
+    padding: 8px 6px !important;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.teaching-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+
+/* Course name */
+.course-cell {
+    font-weight: 600;
+    color: #2d3748;
+    font-size: 0.95em;
+}
+
+/* Level badges */
+.level-badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.71em;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+}
+
+.level-badge.ug {
+    background-color: #e8f0f8;
+    color: #2c5f8a;
+    border: 1px solid #c5d8ec;
+}
+
+.level-badge.grad {
+    background-color: #ede8f8;
+    color: #553c8b;
+    border: 1px solid #cfc0e8;
+}
+
+/* Section divider rows */
+.teaching-table .section-divider td {
+    background: linear-gradient(90deg, #eef3f9 0%, #f8fafc 100%);
+    color: #2c5f8a;
+    font-weight: 700;
+    font-size: 0.76em;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    border-top: 2px solid #2c5f8a;
+    border-bottom: 1px solid #d6e4f0;
+}
