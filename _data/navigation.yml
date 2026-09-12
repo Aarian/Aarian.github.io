@@ -1,22 +1,25 @@
 # main links links
 main:
+  - title: "CV"
+    url: /cv/
+
   - title: "Publications"
     url: /publications/
 
   - title: "Software"
-    url: /software/    
+    url: /software/
 
   - title: "Teaching"
-    url: /teaching/    
-    
+    url: /teaching/
+
   - title: "Projects"
     url: /portfolio/
-        
-  - title: "Hobbies"
-    url: /hobbies/
 
   - title: "Posts"
     url: /posts/
+
+  - title: "Hobbies"
+    url: /hobbies/
 
 #  - title: "Guide"
 #    url: /markdown/ 

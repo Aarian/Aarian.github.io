@@ -15,7 +15,7 @@ redirect_from:
 <p>Welcome to my home page 😊 </p> 
 <p> My name is Arian (Persian: <b>آریان </b>) – you can also call me <b>Ari</b>. 
 I am a researcher in Electrical and Computer Engineering.
-I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotics) from the Department of Computer Engineering, <a href="https://aut.ac.ir/en">Amirkabir University of Technology (Tehran Polytechnic)</a>. I also received my B.Sc. in Computer Engineering (Computer Hardware) from the CSE &amp; IT Department of <a href="https://cse.shirazu.ac.ir/en/home">Shiraz University</a>.</p>
+I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotics) from the Department of Computer Engineering, <a href="https://aut.ac.ir/en">Amirkabir University of Technology (Tehran Polytechnic)</a>. I also received my B.Sc. in Computer Engineering (Computer Hardware) from the CSE &amp; IT Department of <a href="https://cse.shirazu.ac.ir/en/home">Shiraz University</a>. My doctoral research in Electrical and Computer Engineering at Concordia University has focused on reinforcement learning and restless bandit methods for scheduling, where I passed the PhD Comprehensive Examination in 2025.</p>
 
 <p>I find great fulfillment in exploring the intersection of theoretical principles in machine and deep learning with their diverse applications. My master's research centered on statistical signal processing, specifically modeling space-time-frequency representations in image processing. I explored image decomposition techniques to uncover latent representations across new domains, coupled with the statistical analysis of the resulting coefficients. My current research focuses on statistical modeling, optimization, and reinforcement learning.</p>
 
@@ -24,7 +24,7 @@ I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotic
 
 <div class="announcement">
   <span class="announcement-icon"><i class="fas fa-bullhorn"></i></span>
-  <p>I am open to collaboration and always happy to connect with researchers working on related problems. If you have an open position or a project you think could be a good fit, feel free to reach out.</p>
+  <p>I am currently seeking a research assistant position, or a group in which to continue and complete my doctoral research, in reinforcement learning, statistical signal processing, and optimization. I am available to start immediately.</p>
 </div>
 
 
@@ -37,7 +37,7 @@ I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotic
 
   <li><div class="news-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"></div><span><strong>[2025-02]</strong>: Passed the PhD Comprehensive Exam at the Department of Electrical and Computer Engineering, <a href="https://www.concordia.ca/">Concordia University</a>.</span></li>
 
-  <li><div class="news-logos"><img src="/images/Mila.jpeg" alt="Mila" class="news-logo"></div><span><strong>[2023-09]</strong>: Joined <a href="https://mila.quebec/en/directory/arian-morteza">Mila – Quebec AI Institute</a> as a Research Assistant.</span></li>
+  <li><div class="news-logos"><img src="/images/Mila.jpeg" alt="Mila" class="news-logo"></div><span><strong>[2023-09 – 2024-04]</strong>: Research Assistant at <a href="https://mila.quebec/en/directory/arian-morteza">Mila – Quebec AI Institute</a>.</span></li>
 
   <li><div class="news-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"></div><span><strong>[2022-09]</strong>: Started PhD studies at the Department of Electrical and Computer Engineering, <a href="https://www.concordia.ca/">Concordia University</a>.</span></li>
 
