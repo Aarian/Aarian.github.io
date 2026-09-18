@@ -17,14 +17,14 @@ redirect_from:
 I am a researcher in Electrical and Computer Engineering.
 I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotics) from the Department of Computer Engineering, <a href="https://aut.ac.ir/en">Amirkabir University of Technology (Tehran Polytechnic)</a>. I also received my B.Sc. in Computer Engineering (Computer Hardware) from the CSE &amp; IT Department of <a href="https://cse.shirazu.ac.ir/en/home">Shiraz University</a>. My doctoral research in Electrical and Computer Engineering at Concordia University has focused on reinforcement learning and restless bandit methods for scheduling, where I passed the PhD Comprehensive Examination in 2025.</p>
 
-<p>I find great fulfillment in exploring the intersection of theoretical principles in machine and deep learning with their diverse applications. My master's research centered on statistical signal processing, specifically modeling space-time-frequency representations in image processing. I explored image decomposition techniques to uncover latent representations across new domains, coupled with the statistical analysis of the resulting coefficients. My current research focuses on statistical modeling, optimization, and reinforcement learning.</p>
+<p>I find great fulfillment in exploring the intersection of theoretical principles in machine and deep learning with their diverse applications. My master's research centered on statistical signal processing, specifically modeling space-time-frequency representations in image processing. I explored image decomposition techniques to uncover latent representations across new domains, coupled with the statistical analysis of the resulting coefficients. My research interests include statistical modeling, optimization, and reinforcement learning.</p>
 
 
 </div>
 
 <div class="announcement">
   <span class="announcement-icon"><i class="fas fa-bullhorn"></i></span>
-  <p>I am currently seeking a research assistant position, or a group in which to continue and complete my doctoral research, in reinforcement learning, statistical signal processing, and optimization. I am available to start immediately.</p>
+  <p>From 2022 to 2026 I carried out doctoral research in Electrical and Computer Engineering at Concordia University on reinforcement learning and restless-bandit (Whittle index) scheduling: I completed my coursework, passed the comprehensive exam (Feb. 2025), and published an IEEE SmartIoT paper. After my supervision there ended, I left the program. I am now applying for PhD admission for Winter/Fall 2027 in reinforcement learning, statistical signal processing, and image/medical image processing, where my existing results give me a head start.</p>
 </div>
 
 
@@ -32,6 +32,8 @@ I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotic
 
 <div class="news-container">
   <ul>
+
+  <li><div class="news-logos"></div><span><strong>[2026]</strong>: Applying for PhD admission for Winter/Fall 2027.</span></li>
 
   <li><div class="news-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"><img src="/images/IEEE-Logo.jpg" alt="IEEE" class="news-logo"></div><span><strong>[2026-01]</strong>: Conference paper published — <em>A Novel Whittle Index-Based Scheduling for Age of Information Minimization in IoT Networks</em> — <a href="https://ieeexplore.ieee.org/document/11311674">IEEE SmartIOT 2025</a>.</span></li>
 
@@ -41,7 +43,7 @@ I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotic
 
   <li><div class="news-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"></div><span><strong>[2022-09]</strong>: Started PhD studies at the Department of Electrical and Computer Engineering, <a href="https://www.concordia.ca/">Concordia University</a>.</span></li>
 
-  <li><div class="news-logos"><img src="/images/AUT2.png" alt="Amirkabir University" class="news-logo"><img src="/images/Signal Processing Logo.jpg" alt="Signal Processing" class="news-logo"></div><span><strong>[2022-03]</strong>: Journal paper published — <em>A Novel Gaussian-Copula Modeling for Image Despeckling in the Shearlet Domain</em> — <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168421003777?via%3Dihub">Signal Processing</a>.</span></li>
+  <li><div class="news-logos"><img src="/images/AUT2.png" alt="Amirkabir University" class="news-logo"><img src="/images/Signal Processing Logo.jpg" alt="Signal Processing" class="news-logo"></div><span><strong>[2022-03]</strong>: Journal paper published — <em>A Novel Gaussian-Copula Modeling for Image Despeckling in the Shearlet Domain</em> — <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168421003777">Signal Processing</a>.</span></li>
 
   <li><div class="news-logos"><img src="/images/AUT2.png" alt="Amirkabir University" class="news-logo"><img src="/images/Digital Signal Processing Logo.jpg" alt="Digital Signal Processing" class="news-logo"></div><span><strong>[2020-12]</strong>: Journal paper published — <em>A Novel Statistical Approach for Multiplicative Speckle Removal Using t-Location-Scale and Non-Subsampled Shearlet Transform</em> — <a href="https://www.sciencedirect.com/science/article/abs/pii/S1051200420302025">Digital Signal Processing</a>.</span></li>
 
