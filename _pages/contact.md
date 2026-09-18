@@ -37,6 +37,7 @@ author_profile: true
         <option value="CV Request">CV Request</option>
         <option value="Research Inquiry">Research Inquiry</option>
         <option value="Collaboration">Collaboration</option>
+        <option value="Other">Other</option>
       </select>
     </div>
 
