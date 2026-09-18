@@ -33,6 +33,8 @@ I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotic
 <div class="news-container">
   <ul>
 
+  <li><div class="news-logos"></div><span><strong>[2026-09]</strong>: Open to PhD positions in reinforcement learning, statistical signal processing, and image/medical image processing.</span></li>
+
   <li><div class="news-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"><img src="/images/IEEE-Logo.jpg" alt="IEEE" class="news-logo"></div><span><strong>[2026-01]</strong>: Conference paper published — <em>A Novel Whittle Index-Based Scheduling for Age of Information Minimization in IoT Networks</em> — <a href="https://ieeexplore.ieee.org/document/11311674">IEEE SmartIOT 2025</a>.</span></li>
 
   <li><div class="news-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"></div><span><strong>[2025-02]</strong>: Passed the PhD Comprehensive Exam at the Department of Electrical and Computer Engineering, <a href="https://www.concordia.ca/">Concordia University</a>.</span></li>
