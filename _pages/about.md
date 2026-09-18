@@ -24,7 +24,7 @@ I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotic
 
 <div class="announcement">
   <span class="announcement-icon"><i class="fas fa-bullhorn"></i></span>
-  <p>From 2022 to 2026 I carried out doctoral research in Electrical and Computer Engineering at Concordia University on reinforcement learning and restless-bandit (Whittle index) scheduling: I completed my coursework, passed the comprehensive exam (Feb. 2025), and published an IEEE SmartIoT paper. After my supervision there ended, I left the program. I am now applying for PhD admission for Winter/Fall 2027 in reinforcement learning, statistical signal processing, and image/medical image processing, where my existing results give me a head start.</p>
+  <p>I am open to PhD positions in reinforcement learning, statistical signal processing, and image/medical image processing.</p>
 </div>
 
 
@@ -32,8 +32,6 @@ I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotic
 
 <div class="news-container">
   <ul>
-
-  <li><div class="news-logos"></div><span><strong>[2026]</strong>: Applying for PhD admission for Winter/Fall 2027.</span></li>
 
   <li><div class="news-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"><img src="/images/IEEE-Logo.jpg" alt="IEEE" class="news-logo"></div><span><strong>[2026-01]</strong>: Conference paper published — <em>A Novel Whittle Index-Based Scheduling for Age of Information Minimization in IoT Networks</em> — <a href="https://ieeexplore.ieee.org/document/11311674">IEEE SmartIOT 2025</a>.</span></li>
 
