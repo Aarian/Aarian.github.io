@@ -18,9 +18,6 @@ main:
   - title: "Posts"
     url: /posts/
 
-  - title: "Hobbies"
-    url: /hobbies/
-
   - title: "Contact"
     url: /contact/
 
