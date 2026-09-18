@@ -9,8 +9,42 @@ redirect_from:
 
 {% include base_path %}
 
-<div style="max-width:540px; margin: 3em auto; padding: 2em 2.2em; background:#f9f9fb; border:1px solid #e2e2e8; border-radius:10px; text-align:center;">
-  <p style="font-size:1.1em; margin-bottom:0.6em;"><strong>CV available upon request</strong></p>
-  <p style="color:#555; margin-bottom:1.4em;">If you would like a copy of my CV, please send me an email and I will get back to you promptly.</p>
-  <a href="/contact/" style="display:inline-block; padding:10px 24px; background:#7c3aed; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold;">Request CV</a>
+<div style="max-width:580px; margin: 2em auto;">
+  <p style="font-size:1.1em; margin-bottom:0.4em;"><strong>CV available upon request</strong></p>
+  <p style="color:#555; margin-bottom:1.5em;">Fill in the form below and I will get back to you promptly.</p>
+
+  <form action="https://formspree.io/f/mrpbbdod" method="POST" style="display:flex; flex-direction:column; gap:14px;">
+
+    <div style="display:flex; flex-direction:column; gap:4px;">
+      <label style="font-weight:600; font-size:0.9em;">Name</label>
+      <input type="text" name="name" required placeholder="Your name"
+        style="padding:10px 12px; border:1px solid #d1d5db; border-radius:6px; font-size:0.95em;">
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:4px;">
+      <label style="font-weight:600; font-size:0.9em;">Email</label>
+      <input type="email" name="email" required placeholder="your@email.com"
+        style="padding:10px 12px; border:1px solid #d1d5db; border-radius:6px; font-size:0.95em;">
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:4px;">
+      <label style="font-weight:600; font-size:0.9em;">Affiliation</label>
+      <input type="text" name="affiliation" placeholder="University / Company (optional)"
+        style="padding:10px 12px; border:1px solid #d1d5db; border-radius:6px; font-size:0.95em;">
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:4px;">
+      <label style="font-weight:600; font-size:0.9em;">Message</label>
+      <textarea name="message" required rows="4" placeholder="Why are you requesting the CV?"
+        style="padding:10px 12px; border:1px solid #d1d5db; border-radius:6px; font-size:0.95em; resize:vertical;"></textarea>
+    </div>
+
+    <input type="hidden" name="subject" value="CV Request">
+
+    <button type="submit"
+      style="padding:11px 28px; background:#7c3aed; color:#fff; border:none; border-radius:6px; font-size:1em; font-weight:bold; cursor:pointer; align-self:flex-start;">
+      Send Request
+    </button>
+
+  </form>
 </div>
