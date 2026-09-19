@@ -3,6 +3,7 @@ title: "Paper Summary: Whittle Index Scheduling for Age of Information in IoT Ne
 date: 2026-09-18
 permalink: /posts/2026/09/paper-summary-smartiot2025/
 category: Research
+related: false
 tags:
   - paper summary
   - age of information

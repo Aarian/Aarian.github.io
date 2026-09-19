@@ -9,7 +9,7 @@ redirect_from:
 ---
 <link rel="stylesheet" href="{{ '/assets/css/mylib.css' | relative_url }}">
 
-{% assign categories = "Tutorials,Research,Academic Life" | split: "," %}
+{% assign categories = "Academic Life" | split: "," %}
 
 {% for category in categories %}
 ## {{ category }}

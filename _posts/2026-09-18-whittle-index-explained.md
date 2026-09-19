@@ -3,6 +3,7 @@ title: "What is the Whittle Index? A Plain-Language Introduction"
 date: 2026-09-18
 permalink: /posts/2026/09/whittle-index-explained/
 category: Tutorials
+related: false
 tags:
   - reinforcement learning
   - restless bandits
