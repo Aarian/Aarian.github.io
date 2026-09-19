@@ -45,7 +45,7 @@ I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotic
 
   <li><div class="news-logos"><img src="/images/AUT2.png" alt="Amirkabir University" class="news-logo"><img src="/images/Signal Processing Logo.jpg" alt="Signal Processing" class="news-logo"></div><span><strong>[2022-03]</strong>: Journal paper published — <em>A Novel Gaussian-Copula Modeling for Image Despeckling in the Shearlet Domain</em> — <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168421003777">Signal Processing</a>.</span></li>
 
-  <li><div class="news-logos"><img src="/images/AUT2.png" alt="Amirkabir University" class="news-logo"><img src="/images/Digital Signal Processing Logo.jpg" alt="Digital Signal Processing" class="news-logo"></div><span><strong>[2020-12]</strong>: Journal paper published — <em>A Novel Statistical Approach for Multiplicative Speckle Removal Using t-Location-Scale and Non-Subsampled Shearlet Transform</em> — <a href="https://www.sciencedirect.com/science/article/abs/pii/S1051200420302025">Digital Signal Processing</a>.</span></li>
+  <li><div class="news-logos"><img src="/images/AUT2.png" alt="Amirkabir University" class="news-logo"><img src="/images/Digital Signal Processing Logo.jpg" alt="Digital Signal Processing" class="news-logo"></div><span><strong></strong>Journal paper published — <em>A Novel Statistical Approach for Multiplicative Speckle Removal Using t-Location-Scale and Non-Subsampled Shearlet Transform</em> — <a href="https://www.sciencedirect.com/science/article/abs/pii/S1051200420302025">Digital Signal Processing</a>.</span></li>
 
   </ul>
 </div>
