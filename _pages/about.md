@@ -33,15 +33,15 @@ I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotic
 <div class="news-container">
   <ul>
 
-  <li><div class="news-logos"></div><span><strong>[2026-09]</strong>: Open to PhD positions in reinforcement learning, statistical signal processing, and image/medical image processing.</span></li>
+  <li><div class="news-logos"></div><span><strong>[2026-09]</strong>: Applying for PhD admission for Winter/Fall 2027 in reinforcement learning, statistical signal processing, and image/medical image processing.</span></li>
 
-  <li><div class="news-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"><img src="/images/IEEE-Logo.jpg" alt="IEEE" class="news-logo"></div><span><strong>[2026-01]</strong>: Conference paper published — <em>A Novel Whittle Index-Based Scheduling for Age of Information Minimization in IoT Networks</em> — <a href="https://ieeexplore.ieee.org/document/11311674">IEEE SmartIOT 2025</a>.</span></li>
+  <li><div class="news-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"><img src="/images/IEEE-Logo.jpg" alt="IEEE" class="news-logo"></div><span><strong>[2026-01]</strong>: Conference paper published — <em>A Novel Whittle Index-Based Scheduling for Age of Information Minimization in IoT Networks</em> — <a href="https://ieeexplore.ieee.org/document/11311674">IEEE SmartIoT 2025</a>.</span></li>
 
-  <li><div class="news-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"></div><span><strong>[2025-02]</strong>: Passed the PhD Comprehensive Exam at the Department of Electrical and Computer Engineering, <a href="https://www.concordia.ca/">Concordia University</a>.</span></li>
+  <li><div class="news-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"></div><span><strong>[2025-02]</strong>: Passed the PhD Comprehensive Exam, Department of Electrical and Computer Engineering, <a href="https://www.concordia.ca/">Concordia University</a>.</span></li>
 
   <li><div class="news-logos"><img src="/images/Mila.jpeg" alt="Mila" class="news-logo"></div><span><strong>[2023-09 – 2024-04]</strong>: Research Assistant at <a href="https://mila.quebec/en/directory/arian-morteza">Mila – Quebec AI Institute</a>.</span></li>
 
-  <li><div class="news-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"></div><span><strong>[2022-09]</strong>: Started PhD studies at the Department of Electrical and Computer Engineering, <a href="https://www.concordia.ca/">Concordia University</a>.</span></li>
+  <li><div class="news-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"></div><span><strong>[2022-09 – 2026-04]</strong>: Doctoral research, Department of Electrical and Computer Engineering, <a href="https://www.concordia.ca/">Concordia University</a>.</span></li>
 
   <li><div class="news-logos"><img src="/images/AUT2.png" alt="Amirkabir University" class="news-logo"><img src="/images/Signal Processing Logo.jpg" alt="Signal Processing" class="news-logo"></div><span><strong>[2022-03]</strong>: Journal paper published — <em>A Novel Gaussian-Copula Modeling for Image Despeckling in the Shearlet Domain</em> — <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168421003777">Signal Processing</a>.</span></li>
 
