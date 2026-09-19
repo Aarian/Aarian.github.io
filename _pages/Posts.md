@@ -6,30 +6,24 @@ author_profile: true
 redirect_from: 
   - /posts
   - /posts.html
-  
 ---
-<!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mylib.css"> -->
 <link rel="stylesheet" href="{{ '/assets/css/mylib.css' | relative_url }}">
-To be added. 
 
-<!--<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mylib.css">
-{% for post in site.posts %}
-<div class="post-item">
-  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-  <span class="post-meta">
-    <i class="fas fa-calendar-alt"></i> {{ post.date | date: "%B %-d, %Y" }}
-  </span>
-</div>
-{% endfor %} -->
+{% assign categories = "Tutorials,Research,Academic Life" | split: "," %}
 
-<!-- <ul>
-  {% for post in site.posts %}
+{% for category in categories %}
+## {{ category }}
+{% assign posts_in_cat = site.posts | where: "category", category %}
+{% if posts_in_cat.size > 0 %}
+<ul>
+{% for post in posts_in_cat %}
   <li>
-    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-    <span class="post-item">
-      <i class="fas fa-calendar-alt"></i> {{ post.date | date: "%B %-d, %Y" }}
-    </span>
+    <a href="{{ post.url | relative_url }}"><strong>{{ post.title }}</strong></a><br>
+    <small>{{ post.date | date: "%B %-d, %Y" }}</small>
   </li>
-  {% endfor %}
-</ul> -->
-
+{% endfor %}
+</ul>
+{% else %}
+<p style="color:#999; font-style:italic;">Coming soon.</p>
+{% endif %}
+{% endfor %}
