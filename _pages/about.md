@@ -13,18 +13,18 @@ redirect_from:
 <div class="about-container">
 
 <p>Welcome to my home page 😊 </p> 
-<p> My name is Arian (Persian: <b>آریان </b>) – you can also call me <b>Ari</b>. 
-I am a researcher in Electrical and Computer Engineering.
-I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotics) from the Department of Computer Engineering, <a href="https://aut.ac.ir/en">Amirkabir University of Technology (Tehran Polytechnic)</a>. I also received my B.Sc. in Computer Engineering (Computer Hardware) from the CSE &amp; IT Department of <a href="https://cse.shirazu.ac.ir/en/home">Shiraz University</a>. My doctoral research in Electrical and Computer Engineering at Concordia University has focused on reinforcement learning and restless bandit methods for scheduling, where I passed the PhD Comprehensive Examination in 2025.</p>
+<p> My name is Arian (Persian: <b>آریان</b>), but you can also call me <b>Ari</b>. 
+I am a researcher in Electrical and Computer Engineering based in Montréal.
+I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotics) from <a href="https://aut.ac.ir/en">Amirkabir University of Technology (Tehran Polytechnic)</a> and my B.Sc. in Computer Engineering (Computer Hardware) from <a href="https://cse.shirazu.ac.ir/en/home">Shiraz University</a>.</p>
 
-<p>I find great fulfillment in exploring the intersection of theoretical principles in machine and deep learning with their diverse applications. My master's research centered on statistical signal processing, specifically modeling space-time-frequency representations in image processing. I explored image decomposition techniques to uncover latent representations across new domains, coupled with the statistical analysis of the resulting coefficients. My research interests include statistical modeling, optimization, and reinforcement learning.</p>
+<p>I was a doctoral student in Electrical and Computer Engineering at Concordia University, where my research included reinforcement learning and restless bandit methods for scheduling. I passed the PhD Comprehensive Examination in 2025. Before that, my master's research was in statistical signal processing: I modeled space-time-frequency representations of images, using image decomposition techniques to uncover latent representations in new domains and analyzing the resulting coefficients. My broader research interests include statistical modeling, optimization, and reinforcement learning.</p>
 
 
 </div>
 
 <div class="announcement">
   <span class="announcement-icon"><i class="fas fa-bullhorn"></i></span>
-  <p>I am open to positions in reinforcement learning, statistical signal processing, and image/medical image processing.</p>
+  <p>I am open to PhD positions in reinforcement learning, statistical signal processing, and image/medical image processing.</p>
 </div>
 
 
@@ -45,7 +45,7 @@ I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotic
 
   <li><div class="news-logos"><img src="/images/AUT2.png" alt="Amirkabir University" class="news-logo"><img src="/images/Signal Processing Logo.jpg" alt="Signal Processing" class="news-logo"></div><span><strong>[2022-03]</strong>: Journal paper published — <em>A Novel Gaussian-Copula Modeling for Image Despeckling in the Shearlet Domain</em> — <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168421003777">Signal Processing</a>.</span></li>
 
-  <li><div class="news-logos"><img src="/images/AUT2.png" alt="Amirkabir University" class="news-logo"><img src="/images/Digital Signal Processing Logo.jpg" alt="Digital Signal Processing" class="news-logo"></div><span><strong></strong>Journal paper published — <em>A Novel Statistical Approach for Multiplicative Speckle Removal Using t-Location-Scale and Non-Subsampled Shearlet Transform</em> — <a href="https://www.sciencedirect.com/science/article/abs/pii/S1051200420302025">Digital Signal Processing</a>.</span></li>
+  <li><div class="news-logos"><img src="/images/AUT2.png" alt="Amirkabir University" class="news-logo"><img src="/images/Digital Signal Processing Logo.jpg" alt="Digital Signal Processing" class="news-logo"></div><span><strong>[2020-12]</strong>: Journal paper published — <em>A Novel Statistical Approach for Multiplicative Speckle Removal Using t-Location-Scale and Non-Subsampled Shearlet Transform</em> — <a href="https://www.sciencedirect.com/science/article/abs/pii/S1051200420302025">Digital Signal Processing</a>.</span></li>
 
   </ul>
 </div>
