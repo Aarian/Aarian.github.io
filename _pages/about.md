@@ -17,7 +17,7 @@ redirect_from:
 I am a researcher in Electrical and Computer Engineering based in Montréal.
 I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotics) from <a href="https://aut.ac.ir/en">Amirkabir University of Technology (Tehran Polytechnic)</a> and my B.Sc. in Computer Engineering (Computer Hardware) from <a href="https://cse.shirazu.ac.ir/en/home">Shiraz University</a>.</p>
 
-<p>I was a doctoral student in Electrical and Computer Engineering at Concordia University, where my research was reinforcement learning and restless bandit methods for scheduling. I passed the PhD Comprehensive Examination in 2025. Before that, my master's research was in statistical signal processing: I modeled space-time-frequency representations of images, using image decomposition techniques to uncover latent representations in new domains and analyzing the resulting coefficients. My broader research interests include statistical modeling, optimization, and reinforcement learning.</p>
+<p>During my doctoral research in Electrical and Computer Engineering at Concordia University, I worked on reinforcement learning and restless bandit methods for scheduling, and passed the PhD Comprehensive Examination in 2025. Before that, my master's research was in statistical signal processing: I modeled space-time-frequency representations of images, using image decomposition techniques to uncover latent representations in new domains and analyzing the resulting coefficients. My broader research interests include statistical modeling, optimization, and reinforcement learning.</p>
 
 
 </div>
