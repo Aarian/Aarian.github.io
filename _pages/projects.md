@@ -166,7 +166,7 @@ Here, I have listed some of my works, based on their applications. Please click 
          <img src="{{ '/images/TLSpaper.png' | relative_url }}" class="responsive-icon img-Large" alt="Image">
 
           <div class="responsive-content">
-            <p><strong>Image Multiplicative Noise Removal Using Statistical Modeling In The Shearlet Domain. (M.Sc. Thesis)</strong></p>
+            <p><strong>Image Multiplicative Noise Removal Using Statistical Modeling In The Shearlet Domain.</strong></p>
 
             <div class="button-row">
               <button id="NOI" onclick="toggleVisibility('NOI-content'); event.stopPropagation();" class="custom-button">Main idea</button>
