@@ -13,17 +13,18 @@ redirect_from:
 <div class="about-container">
 
 <p>Welcome to my home page 😊 </p> 
-<p> My name is Arian (Persian: <b>آریان </b>) – you can also call me <b>Ari</b>. 
-I am a researcher in Electrical and Computer Engineering.
-I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotics) from the Department of Computer Engineering, <a href="https://aut.ac.ir/en">Amirkabir University of Technology (Tehran Polytechnic)</a>. I also received my B.Sc. in Computer Engineering (Computer Hardware) from the CSE &amp; IT Department of <a href="https://cse.shirazu.ac.ir/en/home">Shiraz University</a>.</p>
+<p> My name is Arian (Persian: <b>آریان</b>), but you can also call me <b>Ari</b>. 
+I am a researcher in Electrical and Computer Engineering based in Montréal.
+I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotics) from <a href="https://aut.ac.ir/en">Amirkabir University of Technology (Tehran Polytechnic)</a> and my B.Sc. in Computer Engineering (Computer Hardware) from <a href="https://cse.shirazu.ac.ir/en/home">Shiraz University</a>.</p>
 
-<p>I find great fulfillment in exploring the intersection of theoretical principles in machine and deep learning with their diverse applications. My master's research centered on statistical signal processing, specifically modeling space-time-frequency representations in image processing. I explored image decomposition techniques to uncover latent representations across new domains, coupled with the statistical analysis of the resulting coefficients. My current research focuses on statistical modeling, optimization, and reinforcement learning.</p>
+<p>I was a doctoral student in Electrical and Computer Engineering at Concordia University, where my research included reinforcement learning and restless bandit methods for scheduling. I passed the PhD Comprehensive Examination in 2025. Before that, my master's research was in statistical signal processing: I modeled space-time-frequency representations of images, using image decomposition techniques to uncover latent representations in new domains and analyzing the resulting coefficients. My broader research interests include statistical modeling, optimization, and reinforcement learning.</p>
+
+
+</div>
 
 <div class="announcement">
   <span class="announcement-icon"><i class="fas fa-bullhorn"></i></span>
-  <p>I am open to collaboration and always happy to connect with researchers working on related problems. If you have an open position or a project you think could be a good fit, feel free to reach out.</p>
-</div>
-
+  <p>I am open to PhD positions in reinforcement learning, statistical signal processing, and image/medical image processing.</p>
 </div>
 
 
@@ -32,15 +33,17 @@ I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotic
 <div class="news-container">
   <ul>
 
-  <li><div class="news-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"><img src="/images/IEEE-Logo.jpg" alt="IEEE" class="news-logo"></div><span><strong>[2026-01]</strong>: Conference paper published — <em>A Novel Whittle Index-Based Scheduling for Age of Information Minimization in IoT Networks</em> — <a href="https://ieeexplore.ieee.org/document/11311674">IEEE SmartIOT 2025</a>.</span></li>
+  <li><div class="news-logos"></div><span><strong>[2026-09]</strong>: Currently seeking positions in reinforcement learning, statistical signal processing, and image/medical image processing.</span></li>
 
-  <li><div class="news-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"></div><span><strong>[2025-02]</strong>: Passed the PhD Comprehensive Exam at the Department of Electrical and Computer Engineering, <a href="https://www.concordia.ca/">Concordia University</a>.</span></li>
+  <li><div class="news-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"><img src="/images/IEEE-Logo.jpg" alt="IEEE" class="news-logo"></div><span><strong>[2026-01]</strong>: Conference paper published — <em>A Novel Whittle Index-Based Scheduling for Age of Information Minimization in IoT Networks</em> — <a href="https://ieeexplore.ieee.org/document/11311674">IEEE SmartIoT 2025</a>.</span></li>
 
-  <li><div class="news-logos"><img src="/images/Mila.jpeg" alt="Mila" class="news-logo"></div><span><strong>[2023-09]</strong>: Joined <a href="https://mila.quebec/en/directory/arian-morteza">Mila – Quebec AI Institute</a> as a Research Assistant.</span></li>
+  <li><div class="news-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"></div><span><strong>[2025-02]</strong>: Passed the PhD Comprehensive Exam, Department of Electrical and Computer Engineering, <a href="https://www.concordia.ca/">Concordia University</a>.</span></li>
 
-  <li><div class="news-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"></div><span><strong>[2022-09]</strong>: Started PhD studies at the Department of Electrical and Computer Engineering, <a href="https://www.concordia.ca/">Concordia University</a>.</span></li>
+  <li><div class="news-logos"><img src="/images/Mila.jpeg" alt="Mila" class="news-logo"></div><span><strong>[2023-09 – 2024-04]</strong>: Research Assistant at <a href="https://mila.quebec/en/directory/arian-morteza">Mila – Quebec AI Institute</a>.</span></li>
 
-  <li><div class="news-logos"><img src="/images/AUT2.png" alt="Amirkabir University" class="news-logo"><img src="/images/Signal Processing Logo.jpg" alt="Signal Processing" class="news-logo"></div><span><strong>[2022-03]</strong>: Journal paper published — <em>A Novel Gaussian-Copula Modeling for Image Despeckling in the Shearlet Domain</em> — <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168421003777?via%3Dihub">Signal Processing</a>.</span></li>
+  <li><div class="news-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"></div><span><strong>[2022-09 – 2026-04]</strong>: Doctoral research, Department of Electrical and Computer Engineering, <a href="https://www.concordia.ca/">Concordia University</a>.</span></li>
+
+  <li><div class="news-logos"><img src="/images/AUT2.png" alt="Amirkabir University" class="news-logo"><img src="/images/Signal Processing Logo.jpg" alt="Signal Processing" class="news-logo"></div><span><strong>[2022-03]</strong>: Journal paper published — <em>A Novel Gaussian-Copula Modeling for Image Despeckling in the Shearlet Domain</em> — <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168421003777">Signal Processing</a>.</span></li>
 
   <li><div class="news-logos"><img src="/images/AUT2.png" alt="Amirkabir University" class="news-logo"><img src="/images/Digital Signal Processing Logo.jpg" alt="Digital Signal Processing" class="news-logo"></div><span><strong>[2020-12]</strong>: Journal paper published — <em>A Novel Statistical Approach for Multiplicative Speckle Removal Using t-Location-Scale and Non-Subsampled Shearlet Transform</em> — <a href="https://www.sciencedirect.com/science/article/abs/pii/S1051200420302025">Digital Signal Processing</a>.</span></li>
 
