@@ -24,7 +24,7 @@ I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotic
 
 <div class="announcement">
   <span class="announcement-icon"><i class="fas fa-bullhorn"></i></span>
-  <p>I am open to PhD positions in reinforcement learning, statistical signal processing, and image/medical image processing.</p>
+  <p>I am open to new PhD positions. Feel free to <a href="/contact/">get in touch</a>.</p>
 </div>
 
 
@@ -33,7 +33,7 @@ I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotic
 <div class="news-container">
   <ul>
 
-  <li><div class="news-logos"></div><span><strong>[2026-09]</strong>: Currently seeking positions in reinforcement learning, statistical signal processing, and image/medical image processing.</span></li>
+  <li><div class="news-logos"></div><span><strong>[2026-09]</strong>: Started applying to new PhD programs.</span></li>
 
   <li><div class="news-logos"><img src="/images/Concordia1.png" alt="Concordia" class="news-logo"><img src="/images/IEEE-Logo.jpg" alt="IEEE" class="news-logo"></div><span><strong>[2026-01]</strong>: Conference paper published — <em>A Novel Whittle Index-Based Scheduling for Age of Information Minimization in IoT Networks</em> — <a href="https://ieeexplore.ieee.org/document/11311674">IEEE SmartIoT 2025</a>.</span></li>
 
