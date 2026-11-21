@@ -24,7 +24,7 @@ I received my M.Sc. in Computer Engineering (Artificial Intelligence and Robotic
 
 <div class="announcement">
   <span class="announcement-icon"><i class="fas fa-bullhorn"></i></span>
-  <p>I am open to new PhD positions. Feel free to <a href="/contact/">get in touch</a>.</p>
+  <p>I am open to new PhD positions.</p>
 </div>
 
 
